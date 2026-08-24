@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"GlassMaxX"
 HKCU,"Control Panel\Cursors\Schemes","GlassMaxX",,""
+
+[Strings]
+SCHEME_NAME        = "GlassMaxX"

@@ -1,0 +1,308 @@
+,................................................
+Bumble Animated Cursors (v1.0) Multiple Waters
+................................................
+*****        ****	****         ****
+**** *     * ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	**** *     * ****
+................................................
+....	     ....   ....   
+....	     ....   ....
+....	     ....   ....
+....	     ....   ....
+.... ..... ....   ....
+.... ..... ....   ....
+....	     ....   ....
+....	     ....   ....
+....	     ....   .... 
+,................................................
+
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt, Scheme.Cur.Larger, Scheme.Txt.Larger, Scheme.Cur.Largest, Scheme.Txt.Largest, Scheme.Cur.Medium, Scheme.Txt.Medium, Scheme.Cur.Small, Scheme.Txt.Small, Scheme.Cur.Smallest, Scheme.Txt.Smallest, Scheme.Preview, Scheme.QRC
+AddReg    = Scheme.Reg, Scheme.Reg.Larger, Scheme.Reg.Largest, Scheme.Reg.Medium, Scheme.Reg.Small, Scheme.Reg.Smallest
+
+; --Destination directories for all necessary folder structure which is mainly read from the [Strings] Section.
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+Scheme.Cur.Larger = 10,"%CUR_DIR_LARGER%"
+Scheme.Cur.Largest = 10,"%CUR_DIR_LARGEST%"
+Scheme.Cur.Medium = 10,"%CUR_DIR_MEDIUM%"
+Scheme.Cur.Small = 10,"%CUR_DIR_SMALL%"
+Scheme.Cur.Smallest = 10,"%CUR_DIR_SMALLEST%"
+Scheme.Preview = 10,"Cursors\Bumble v1.0 by Multiple Waters"
+
+; --Registry keys for all the variants of Bumble v1.0 to be written for current user.
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Bumble v1.0 (Large)\%pointer%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%help%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%work%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%busy%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%cross%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Text%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Hand%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%unavailable%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Vert%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Horz%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Dgn1%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Dgn2%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%move%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%alternate%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%link%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Person%,%10%\%CUR_DIR%\Bumble v1.0 (Large)\%Pin%"
+
+[Scheme.Reg.Larger]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_LARGER%",,"%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%pointer_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%help_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%work_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%busy_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%cross_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Text_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Hand_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%unavailable_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Vert_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Horz_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Dgn1_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Dgn2_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%move_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%alternate_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%link_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Person_Larger%,%10%\%CUR_DIR_Larger%\Bumble v1.0 (Larger)\%Pin_Larger%"
+
+[Scheme.Reg.Largest]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_LARGEST%",,"%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%pointer_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%help_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%work_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%busy_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%cross_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Text_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Hand_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%unavailable_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Vert_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Horz_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Dgn1_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Dgn2_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%move_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%alternate_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%link_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Person_Largest%,%10%\%CUR_DIR_Largest%\Bumble v1.0 (Largest)\%Pin_Largest%"
+
+[Scheme.Reg.Medium]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_MEDIUM%",,"%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%pointer_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%help_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%work_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%busy_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%cross_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Text_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Hand_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%unavailable_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Vert_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Horz_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Dgn1_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Dgn2_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%move_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%alternate_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%link_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Person_medium%,%10%\%CUR_DIR_MEDIUM%\Bumble v1.0 (Medium)\%Pin_medium%"
+
+
+[Scheme.Reg.Small]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_SMALL%",,"%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%pointer_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%help_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%work_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%busy_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%cross_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Text_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Hand_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%unavailable_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Vert_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Horz_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Dgn1_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Dgn2_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%move_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%alternate_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%link_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Person_Small%,%10%\%CUR_DIR_Small%\Bumble v1.0 (Small)\%Pin_Small%"
+
+
+[Scheme.Reg.Smallest]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_Smallest%",,"%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%pointer_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%help_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%work_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%busy_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%cross_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Text_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Hand_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%unavailable_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Vert_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Horz_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Dgn1_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Dgn2_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%move_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%alternate_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%link_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Person_Smallest%,%10%\%CUR_DIR_Smallest%\Bumble v1.0 (Smallest)\%Pin_Smallest%"
+
+; -- Directory structure of actual cursor files found in the root directory of Bumble v1.0 by Multiple Waters
+
+[Scheme.Cur]
+"\Bumble v1.0 (Large)\Bumble v1.0 Normal Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Help Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Working In Background (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Busy (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Precision Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Text Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Handwriting (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Unavailable (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Vertical Resize (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Horizontal Resize (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Diagonal Resize 1 (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Diagonal Resize 2 (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Move (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Alternate Select (Large).ani" 
+"\Bumble v1.0 (Large)\Bumble v1.0 Link Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Location Select (Large).ani"
+"\Bumble v1.0 (Large)\Bumble v1.0 Person Select (Large).ani"
+
+[Scheme.Cur.Larger]
+"\Bumble v1.0 (Larger)\Bumble v1.0 Normal Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Help Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Working In Background (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Busy (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Precision Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Text Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Handwriting (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Unavailable (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Vertical Resize (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Horizontal Resize (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Diagonal Resize 1 (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Diagonal Resize 2 (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Move (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Alternate Select (Larger).ani" 
+"\Bumble v1.0 (Larger)\Bumble v1.0 Link Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Location Select (Larger).ani"
+"\Bumble v1.0 (Larger)\Bumble v1.0 Person Select (Larger).ani"
+
+[Scheme.Cur.Largest]
+"\Bumble v1.0 (Largest)\Bumble v1.0 Normal Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Help Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Working In Background (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Busy (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Precision Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Text Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Handwriting (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Unavailable (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Vertical Resize (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Horizontal Resize (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Diagonal Resize 1 (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Diagonal Resize 2 (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Move (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Alternate Select (Largest).ani" 
+"\Bumble v1.0 (Largest)\Bumble v1.0 Link Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Location Select (Largest).ani"
+"\Bumble v1.0 (Largest)\Bumble v1.0 Person Select (Largest).ani"
+
+[Scheme.Cur.Medium]
+"\Bumble v1.0 (Medium)\Bumble v1.0 Normal Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Help Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Working In Background (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Busy (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Precision Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Text Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Handwriting (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Unavailable (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Vertical Resize (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Horizontal Resize (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Diagonal Resize 1 (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Diagonal Resize 2 (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Move (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Alternate Select (Medium).ani" 
+"\Bumble v1.0 (Medium)\Bumble v1.0 Link Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Location Select (Medium).ani"
+"\Bumble v1.0 (Medium)\Bumble v1.0 Person Select (Medium).ani"
+
+[Scheme.Cur.Small]
+"\Bumble v1.0 (Small)\Bumble v1.0 Normal Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Help Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Working In Background (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Busy (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Precision Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Text Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Handwriting (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Unavailable (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Vertical Resize (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Horizontal Resize (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Diagonal Resize 1 (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Diagonal Resize 2 (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Move (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Alternate Select (Small).ani" 
+"\Bumble v1.0 (Small)\Bumble v1.0 Link Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Location Select (Small).ani"
+"\Bumble v1.0 (Small)\Bumble v1.0 Person Select (Small).ani"
+
+[Scheme.Cur.Smallest]
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Normal Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Help Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Working In Background (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Busy (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Precision Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Text Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Handwriting (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Unavailable (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Vertical Resize (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Horizontal Resize (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Diagonal Resize 1 (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Diagonal Resize 2 (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Move (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Alternate Select (Smallest).ani" 
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Link Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Location Select (Smallest).ani"
+"\Bumble v1.0 (Smallest)\Bumble v1.0 Person Select (Smallest).ani"
+
+[Scheme.Preview]
+"Bumble v1.0 Preview.png"
+; -- Directory structure of all variants of Bumble v1.0 by Multiple Waters and Preview Image to be copied to C:\Windows\Cursors\Bumble v1.0 by Multiple Waters
+
+[Strings]
+CUR_DIR        		= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME        = "Bumble Ani"
+pointer			= "Bumble v1.0 Normal Select (Large).ani"
+help				= "Bumble v1.0 Help Select (Large).ani"
+work				= "Bumble v1.0 Working In Background (Large).ani"
+busy				= "Bumble v1.0 Busy (Large).ani"
+cross				= "Bumble v1.0 Precision Select (Large).ani"
+text				= "Bumble v1.0 Text Select (Large).ani"
+hand				= "Bumble v1.0 Handwriting (Large).ani"
+unavailable			= "Bumble v1.0 Unavailable (Large).ani"
+vert				= "Bumble v1.0 Vertical Resize (Large).ani"
+horz				= "Bumble v1.0 Horizontal Resize (Large).ani"
+dgn1				= "Bumble v1.0 Diagonal Resize 1 (Large).ani"
+dgn2				= "Bumble v1.0 Diagonal Resize 2 (Large).ani"
+move				= "Bumble v1.0 Move (Large).ani"
+alternate			= "Bumble v1.0 Alternate Select (Large).ani"
+link				= "Bumble v1.0 Link Select (Large).ani"
+person			= "Bumble v1.0 Location Select (Large).ani"
+pin				= "Bumble v1.0 Person Select (Large).ani"
+
+
+CUR_DIR_LARGER        	= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME_LARGER    	= "Bumble v1.0 (Larger)"
+pointer_larger		= "Bumble v1.0 Normal Select (Larger).ani"
+help_larger			= "Bumble v1.0 Help Select (Larger).ani"
+work_larger			= "Bumble v1.0 Working In Background (Larger).ani"
+busy_larger			= "Bumble v1.0 Busy (Larger).ani"
+cross_larger		= "Bumble v1.0 Precision Select (Larger).ani"
+text_larger			= "Bumble v1.0 Text Select (Larger).ani"
+hand_larger			= "Bumble v1.0 Handwriting (Larger).ani"
+unavailable_larger	= "Bumble v1.0 Unavailable (Larger).ani"
+vert_larger			= "Bumble v1.0 Vertical Resize (Larger).ani"
+horz_larger			= "Bumble v1.0 Horizontal Resize (Larger).ani"
+dgn1_larger			= "Bumble v1.0 Diagonal Resize 1 (Larger).ani"
+dgn2_larger			= "Bumble v1.0 Diagonal Resize 2 (Larger).ani"
+move_larger			= "Bumble v1.0 Move (Larger).ani"
+alternate_larger		= "Bumble v1.0 Alternate Select (Larger).ani"
+link_larger			= "Bumble v1.0 Link Select (Larger).ani"
+person_larger		= "Bumble v1.0 Location Select (Larger).ani"
+pin_larger			= "Bumble v1.0 Person Select (Larger).ani"
+
+
+CUR_DIR_LARGEST        	= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME_LARGEST    	= "Bumble v1.0 (Largest)"
+pointer_largest		= "Bumble v1.0 Normal Select (Largest).ani"
+help_largest		= "Bumble v1.0 Help Select (Largest).ani"
+work_largest		= "Bumble v1.0 Working In Background (Largest).ani"
+busy_largest		= "Bumble v1.0 Busy (Largest).ani"
+cross_largest		= "Bumble v1.0 Precision Select (Largest).ani"
+text_largest		= "Bumble v1.0 Text Select (Largest).ani"
+hand_largest		= "Bumble v1.0 Handwriting (Largest).ani"
+unavailable_largest	= "Bumble v1.0 Unavailable (Largest).ani"
+vert_largest		= "Bumble v1.0 Vertical Resize (Largest).ani"
+horz_largest		= "Bumble v1.0 Horizontal Resize (Largest).ani"
+dgn1_largest		= "Bumble v1.0 Diagonal Resize 1 (Largest).ani"
+dgn2_largest		= "Bumble v1.0 Diagonal Resize 2 (Largest).ani"
+move_largest		= "Bumble v1.0 Move (Largest).ani"
+alternate_largest		= "Bumble v1.0 Alternate Select (Largest).ani"
+link_largest		= "Bumble v1.0 Link Select (Largest).ani"
+person_largest		= "Bumble v1.0 Location Select (Largest).ani"
+pin_largest			= "Bumble v1.0 Person Select (Largest).ani"
+
+
+CUR_DIR_MEDIUM        	= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME_MEDIUM    	= "Bumble v1.0 (Medium)"
+pointer_medium		= "Bumble v1.0 Normal Select (Medium).ani"
+help_medium			= "Bumble v1.0 Help Select (Medium).ani"
+work_medium			= "Bumble v1.0 Working In Background (Medium).ani"
+busy_medium			= "Bumble v1.0 Busy (Medium).ani"
+cross_medium		= "Bumble v1.0 Precision Select (Medium).ani"
+text_medium			= "Bumble v1.0 Text Select (Medium).ani"
+hand_medium			= "Bumble v1.0 Handwriting (Medium).ani"
+unavailable_medium	= "Bumble v1.0 Unavailable (Medium).ani"
+vert_medium			= "Bumble v1.0 Vertical Resize (Medium).ani"
+horz_medium			= "Bumble v1.0 Horizontal Resize (Medium).ani"
+dgn1_medium			= "Bumble v1.0 Diagonal Resize 1 (Medium).ani"
+dgn2_medium			= "Bumble v1.0 Diagonal Resize 2 (Medium).ani"
+move_medium			= "Bumble v1.0 Move (Medium).ani"
+alternate_medium		= "Bumble v1.0 Alternate Select (Medium).ani"
+link_medium			= "Bumble v1.0 Link Select (Medium).ani"
+person_medium		= "Bumble v1.0 Location Select (Medium).ani"
+pin_medium			= "Bumble v1.0 Person Select (Medium).ani"
+
+CUR_DIR_SMALL        	= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME_SMALL    	= "Bumble v1.0 (Small)"
+pointer_small		= "Bumble v1.0 Normal Select (Small).ani"
+help_small			= "Bumble v1.0 Help Select (Small).ani"
+work_small			= "Bumble v1.0 Working In Background (Small).ani"
+busy_small			= "Bumble v1.0 Busy (Small).ani"
+cross_small			= "Bumble v1.0 Precision Select (Small).ani"
+text_small			= "Bumble v1.0 Text Select (Small).ani"
+hand_small			= "Bumble v1.0 Handwriting (Small).ani"
+unavailable_small		= "Bumble v1.0 Unavailable (Small).ani"
+vert_small			= "Bumble v1.0 Vertical Resize (Small).ani"
+horz_small			= "Bumble v1.0 Horizontal Resize (Small).ani"
+dgn1_small			= "Bumble v1.0 Diagonal Resize 1 (Small).ani"
+dgn2_small			= "Bumble v1.0 Diagonal Resize 2 (Small).ani"
+move_small			= "Bumble v1.0 Move (Small).ani"
+alternate_small		= "Bumble v1.0 Alternate Select (Small).ani"
+link_small			= "Bumble v1.0 Link Select (Small).ani"
+person_small		= "Bumble v1.0 Location Select (Small).ani"
+pin_small			= "Bumble v1.0 Person Select (Small).ani"
+
+CUR_DIR_SMALLEST       	= "Cursors\Bumble v1.0 by Multiple Waters"
+SCHEME_NAME_SMALLEST    = "Bumble v1.0 (Smallest)"
+pointer_smallest		= "Bumble v1.0 Normal Select (Smallest).ani"
+help_smallest		= "Bumble v1.0 Help Select (Smallest).ani"
+work_smallest		= "Bumble v1.0 Working In Background (Smallest).ani"
+busy_smallest		= "Bumble v1.0 Busy (Smallest).ani"
+cross_smallest		= "Bumble v1.0 Precision Select (Smallest).ani"
+text_smallest		= "Bumble v1.0 Text Select (Smallest).ani"
+hand_smallest		= "Bumble v1.0 Handwriting (Smallest).ani"
+unavailable_smallest	= "Bumble v1.0 Unavailable (Smallest).ani"
+vert_smallest		= "Bumble v1.0 Vertical Resize (Smallest).ani"
+horz_smallest		= "Bumble v1.0 Horizontal Resize (Smallest).ani"
+dgn1_smallest		= "Bumble v1.0 Diagonal Resize 1 (Smallest).ani"
+dgn2_smallest		= "Bumble v1.0 Diagonal Resize 2 (Smallest).ani"
+move_smallest		= "Bumble v1.0 Move (Smallest).ani"
+alternate_smallest	= "Bumble v1.0 Alternate Select (Smallest).ani"
+link_smallest		= "Bumble v1.0 Link Select (Smallest).ani"
+person_smallest		= "Bumble v1.0 Location Select (Smallest).ani"
+pin_smallest		= "Bumble v1.0 Person Select (Smallest).ani"

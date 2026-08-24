@@ -34,7 +34,7 @@ Alternative2.cur
 
 [Strings]
 CUR_DIR       = "LilaMolang By BunnyPloff.devianart"
-SCHEME_NAME   = "Lila Molang"
+SCHEME_NAME        = "Lila Molang"
 pointer       = "normal.cur"
 help          = "ayuda.cur"
 work          = "trabajando en segundo plano.ani"

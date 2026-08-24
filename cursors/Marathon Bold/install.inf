@@ -44,3 +44,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Marathon Bold"
 HKCU,"Control Panel\Cursors\Schemes","Marathon Bold",,""
+
+[Strings]
+SCHEME_NAME        = "Marathon Bold"

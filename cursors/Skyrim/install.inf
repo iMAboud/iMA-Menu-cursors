@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Skyrim Set 2"
 HKCU,"Control Panel\Cursors\Schemes","Skyrim Set 2",,""
+
+[Strings]
+SCHEME_NAME        = "Skyrim"

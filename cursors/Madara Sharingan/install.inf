@@ -40,3 +40,6 @@ HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Hand.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Madara Mangekyou Sharingan Set"
 HKCU,"Control Panel\Cursors\Schemes","Madara Mangekyou Sharingan Set",,""
+
+[Strings]
+SCHEME_NAME        = "Madara Sharingan"

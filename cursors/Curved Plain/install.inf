@@ -38,3 +38,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\busy.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Curved Plain Light"
 HKCU,"Control Panel\Cursors\Schemes","Curved Plain Light",,""
+
+[Strings]
+SCHEME_NAME        = "Curved Plain"

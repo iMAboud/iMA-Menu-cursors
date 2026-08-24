@@ -33,7 +33,7 @@ Alternativo.ani
 
 [Strings]
 CUR_DIR       = "Cursors\Kawaii Bear {AmberTutoss}"
-SCHEME_NAME   = "Kawaii Bear {AmberTutoss}"
+SCHEME_NAME        = "Kawaii Bear"
 pointer       = "normal.ani"
 help          = "ayuda.cur"
 work          = "trabajando.ani"

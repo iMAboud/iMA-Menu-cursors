@@ -33,7 +33,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR		= "Cursors\AnyaCursor"
-SCHEME_NAME	= "AnyaCursor"
+SCHEME_NAME        = "Anya Forger"
 pointer		= "Normal.ani"
 help		= "Help_Select.ani"
 work		= "Working_Background.ani"

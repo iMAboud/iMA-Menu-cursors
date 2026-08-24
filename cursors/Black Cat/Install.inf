@@ -35,7 +35,7 @@ Kitty person.ani
 
 [Strings]
 CUR_DIR       = "Cursors\Kitty Cursor"
-SCHEME_NAME   = "Kitty Cursor"
+SCHEME_NAME        = "Black Cat"
 pointer       = "Kitty normal.ani"
 help          = "Kitty help.ani"
 work          = "Kitty work.ani"

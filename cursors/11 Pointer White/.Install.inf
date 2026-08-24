@@ -56,7 +56,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\11Pointer_White"
-SCHEME_NAME     = "11Pointer_White"
+SCHEME_NAME        = "11 Pointer White"
 pointer		= "pointer.cur"
 help		= "help.cur"
 work		= "work.ani"

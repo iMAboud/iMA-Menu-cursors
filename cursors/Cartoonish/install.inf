@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Cartoonish Set"
 HKCU,"Control Panel\Cursors\Schemes","Cartoonish Set",,""
+
+[Strings]
+SCHEME_NAME        = "Cartoonish"

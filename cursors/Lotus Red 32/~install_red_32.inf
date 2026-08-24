@@ -36,7 +36,7 @@ vert_32.ani
 
 [Strings]
 CUR_DIR       = "Cursors\Lotus\Red"
-SCHEME_NAME   = "Lotus Red"
+SCHEME_NAME        = "Lotus Red 32"
 pointer       = "red_normal.cur"
 help          = "red_help.cur"
 work          = "red_working_32.ani"

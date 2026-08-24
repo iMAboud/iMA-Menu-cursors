@@ -43,7 +43,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR        			                 	 = "Cursors\Antarta"
-SCHEME_NAME    			                 	 = "Antarta"
+SCHEME_NAME        = "Antarta"
 pointer							 = "Normal select.ani"
 help						         = "Help select.ani"
 work						 	 = "Hard Working.ani"

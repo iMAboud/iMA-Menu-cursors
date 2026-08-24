@@ -34,7 +34,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\mould_glass"
-SCHEME_NAME     = "mould_glass"
+SCHEME_NAME        = "Mould Glass"
 pointer		= "Arrow.ani"
 help		= "Help.ani"
 work		= "AppStarting.ani"

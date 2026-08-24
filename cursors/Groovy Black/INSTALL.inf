@@ -10,7 +10,7 @@ Scheme.Txt = 10,"%CUR_DIR%"
 HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%start%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%beam%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
 [Strings]
 CUR_DIR		= "Cursors\Default"
-SCHEME_NAME	= "(Default)"
+SCHEME_NAME        = "Groovy Black"
 arrow		= "arrow.cur"
 beam		= "text.cur"
 cross		= "cross.cur"

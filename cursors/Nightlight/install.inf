@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Nightlight"
 HKCU,"Control Panel\Cursors\Schemes","Nightlight",,""
+
+[Strings]
+SCHEME_NAME        = "Nightlight"

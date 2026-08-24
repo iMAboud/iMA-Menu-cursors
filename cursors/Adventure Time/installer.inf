@@ -38,7 +38,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR      = "Cursors\Jake The Dog"
-SCHEME_NAME  = "Jake The Dog"
+SCHEME_NAME        = "Adventure Time"
 pointer      = "Arrow.cur"
 text         = "IBeam.cur"
 busy         = "Wait.ani"

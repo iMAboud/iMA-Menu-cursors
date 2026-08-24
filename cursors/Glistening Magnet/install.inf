@@ -1,0 +1,43 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+Help_32-48-64.ani
+Arrow_32-48-64.ani
+AppStarting_32-48-64.ani
+Cross.ani
+IBeam.ani
+No.ani
+SizeNS_32-48-64.ani
+Wait_32-48-64.ani
+SizeNWSE_32-48-64.ani
+SizeWE_32-48-64.ani
+SizeNESW_32-48-64.ani
+SizeAll_32-48-64.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\Help_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\Arrow_32-48-64.ani"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\Cross.ani"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\IBeam.ani"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\No.ani"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\SizeNS_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\SizeNWSE_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\SizeWE_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\SizeNESW_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\SizeAll_32-48-64.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Glistening Magnetism"
+HKCU,"Control Panel\Cursors\Schemes","Glistening Magnetism",,""
+
+[Strings]
+SCHEME_NAME        = "Glistening Magnet"

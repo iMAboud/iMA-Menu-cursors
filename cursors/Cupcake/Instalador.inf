@@ -34,7 +34,7 @@ Alternativo.cur
 
 [Strings]
 CUR_DIR       = "Cursors\Cupcake"
-SCHEME_NAME   = "Cupcake"
+SCHEME_NAME        = "Cupcake"
 pointer       = "normal.cur"
 help          = "ayuda.cur"
 work          = "trabajando.cur"

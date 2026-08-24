@@ -32,7 +32,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR             = "Cursors\VS Cursor 17.0"
-SCHEME_NAME         = "VS Cursor 17.0"
+SCHEME_NAME        = "Vs 170"
 pointer             = "pointer.cur"
 help                = "help.cur"
 work                = "work.ani"

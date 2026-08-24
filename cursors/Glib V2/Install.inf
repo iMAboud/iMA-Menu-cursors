@@ -34,7 +34,7 @@ handwriting.cur
 alternate.cur
 [Strings]
 CUR_DIR       = "Cursors\Glib Cursors v2"
-SCHEME_NAME   = "Glib Cursors v2"
+SCHEME_NAME        = "Glib V2"
 pointer       = "Normal Select.cur"
 help          = "help.cur"
 work          = "working.ani"

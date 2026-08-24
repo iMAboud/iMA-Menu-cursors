@@ -1,16 +1,20 @@
 [Version]
 signature="$CHICAGO$"
-Blackwatch Cursor By Darques
+Blackwatch Cursor By Darques
+
 [DefaultInstall]
 CopyFiles = Scheme.Cur
 AddReg    = Scheme.Reg,Wreg
-
+
+
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
-
+
+
 [Scheme.Reg]
 HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
-
+
+
 [Wreg]
 HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
 HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
@@ -31,7 +35,8 @@ HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
 HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
 HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
 HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
-
+
+
 [Scheme.Cur]
 "pointer.cur"
 "help.cur"
@@ -50,10 +55,11 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 "link.cur"
 "person.cur"
 "pin.cur"
-
+
+
 [Strings]
 CUR_DIR         = "Cursors\blackwatch_pointer"
-SCHEME_NAME     = "Blackwatch Pointer"
+SCHEME_NAME        = "Blackwatch Pointer"
 pointer		= "pointer.cur"
 help		= "help.cur"
 work		= "work.ani"

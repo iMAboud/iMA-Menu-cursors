@@ -32,7 +32,7 @@ Person Select.cur
 
 [Strings]
 CUR_DIR       = "Windows\Cursors\PR DARK"
-SCHEME_NAME   = "PR DARK"
+SCHEME_NAME        = "Pr Dark"
 pointer       = "Normal Select.cur"
 help          = "Help Select.cur"
 work          = "Working In Background.ani"

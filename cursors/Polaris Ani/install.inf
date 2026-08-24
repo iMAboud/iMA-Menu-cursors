@@ -1,0 +1,308 @@
+,................................................
+Polaris Animated Cursors (v1.0) Multiple Waters
+................................................
+*****        ****	****         ****
+**** *     * ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	**** *     * ****
+................................................
+....	     ....   ....   
+....	     ....   ....
+....	     ....   ....
+....	     ....   ....
+.... ..... ....   ....
+.... ..... ....   ....
+....	     ....   ....
+....	     ....   ....
+....	     ....   .... 
+,................................................
+
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt, Scheme.Cur.Larger, Scheme.Txt.Larger, Scheme.Cur.Largest, Scheme.Txt.Largest, Scheme.Cur.Medium, Scheme.Txt.Medium, Scheme.Cur.Small, Scheme.Txt.Small, Scheme.Cur.Smallest, Scheme.Txt.Smallest, Scheme.Preview, Scheme.QRC
+AddReg    = Scheme.Reg, Scheme.Reg.Larger, Scheme.Reg.Largest, Scheme.Reg.Medium, Scheme.Reg.Small, Scheme.Reg.Smallest
+
+; --Destination directories for all necessary folder structure which is mainly read from the [Strings] Section.
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+Scheme.Cur.Larger = 10,"%CUR_DIR_LARGER%"
+Scheme.Cur.Largest = 10,"%CUR_DIR_LARGEST%"
+Scheme.Cur.Medium = 10,"%CUR_DIR_MEDIUM%"
+Scheme.Cur.Small = 10,"%CUR_DIR_SMALL%"
+Scheme.Cur.Smallest = 10,"%CUR_DIR_SMALLEST%"
+Scheme.Preview = 10,"Cursors\Polaris v1.0 by Multiple Waters"
+
+; --Registry keys for all the variants of Polaris v1.0 to be written for current user.
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Polaris v1.0 (Large)\%pointer%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%help%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%work%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%busy%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%cross%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Text%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Hand%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%unavailable%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Vert%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Horz%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Dgn1%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Dgn2%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%move%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%alternate%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%link%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Person%,%10%\%CUR_DIR%\Polaris v1.0 (Large)\%Pin%"
+
+[Scheme.Reg.Larger]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_LARGER%",,"%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%pointer_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%help_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%work_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%busy_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%cross_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Text_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Hand_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%unavailable_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Vert_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Horz_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Dgn1_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Dgn2_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%move_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%alternate_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%link_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Person_Larger%,%10%\%CUR_DIR_Larger%\Polaris v1.0 (Larger)\%Pin_Larger%"
+
+[Scheme.Reg.Largest]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_LARGEST%",,"%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%pointer_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%help_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%work_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%busy_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%cross_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Text_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Hand_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%unavailable_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Vert_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Horz_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Dgn1_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Dgn2_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%move_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%alternate_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%link_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Person_Largest%,%10%\%CUR_DIR_Largest%\Polaris v1.0 (Largest)\%Pin_Largest%"
+
+[Scheme.Reg.Medium]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_MEDIUM%",,"%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%pointer_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%help_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%work_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%busy_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%cross_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Text_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Hand_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%unavailable_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Vert_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Horz_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Dgn1_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Dgn2_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%move_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%alternate_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%link_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Person_medium%,%10%\%CUR_DIR_MEDIUM%\Polaris v1.0 (Medium)\%Pin_medium%"
+
+
+[Scheme.Reg.Small]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_SMALL%",,"%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%pointer_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%help_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%work_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%busy_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%cross_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Text_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Hand_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%unavailable_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Vert_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Horz_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Dgn1_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Dgn2_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%move_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%alternate_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%link_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Person_Small%,%10%\%CUR_DIR_Small%\Polaris v1.0 (Small)\%Pin_Small%"
+
+
+[Scheme.Reg.Smallest]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_Smallest%",,"%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%pointer_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%help_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%work_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%busy_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%cross_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Text_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Hand_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%unavailable_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Vert_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Horz_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Dgn1_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Dgn2_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%move_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%alternate_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%link_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Person_Smallest%,%10%\%CUR_DIR_Smallest%\Polaris v1.0 (Smallest)\%Pin_Smallest%"
+
+; -- Directory structure of actual cursor files found in the root directory of Polaris v1.0 by Multiple Waters
+
+[Scheme.Cur]
+"\Polaris v1.0 (Large)\Polaris v1.0 Normal Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Help Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Working In Background (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Busy (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Precision Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Text Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Handwriting (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Unavailable (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Vertical Resize (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Horizontal Resize (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Diagonal Resize 1 (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Diagonal Resize 2 (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Move (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Alternate Select (Large).ani" 
+"\Polaris v1.0 (Large)\Polaris v1.0 Link Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Location Select (Large).ani"
+"\Polaris v1.0 (Large)\Polaris v1.0 Person Select (Large).ani"
+
+[Scheme.Cur.Larger]
+"\Polaris v1.0 (Larger)\Polaris v1.0 Normal Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Help Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Working In Background (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Busy (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Precision Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Text Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Handwriting (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Unavailable (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Vertical Resize (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Horizontal Resize (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Diagonal Resize 1 (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Diagonal Resize 2 (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Move (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Alternate Select (Larger).ani" 
+"\Polaris v1.0 (Larger)\Polaris v1.0 Link Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Location Select (Larger).ani"
+"\Polaris v1.0 (Larger)\Polaris v1.0 Person Select (Larger).ani"
+
+[Scheme.Cur.Largest]
+"\Polaris v1.0 (Largest)\Polaris v1.0 Normal Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Help Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Working In Background (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Busy (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Precision Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Text Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Handwriting (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Unavailable (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Vertical Resize (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Horizontal Resize (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Diagonal Resize 1 (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Diagonal Resize 2 (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Move (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Alternate Select (Largest).ani" 
+"\Polaris v1.0 (Largest)\Polaris v1.0 Link Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Location Select (Largest).ani"
+"\Polaris v1.0 (Largest)\Polaris v1.0 Person Select (Largest).ani"
+
+[Scheme.Cur.Medium]
+"\Polaris v1.0 (Medium)\Polaris v1.0 Normal Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Help Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Working In Background (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Busy (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Precision Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Text Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Handwriting (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Unavailable (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Vertical Resize (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Horizontal Resize (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Diagonal Resize 1 (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Diagonal Resize 2 (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Move (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Alternate Select (Medium).ani" 
+"\Polaris v1.0 (Medium)\Polaris v1.0 Link Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Location Select (Medium).ani"
+"\Polaris v1.0 (Medium)\Polaris v1.0 Person Select (Medium).ani"
+
+[Scheme.Cur.Small]
+"\Polaris v1.0 (Small)\Polaris v1.0 Normal Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Help Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Working In Background (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Busy (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Precision Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Text Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Handwriting (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Unavailable (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Vertical Resize (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Horizontal Resize (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Diagonal Resize 1 (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Diagonal Resize 2 (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Move (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Alternate Select (Small).ani" 
+"\Polaris v1.0 (Small)\Polaris v1.0 Link Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Location Select (Small).ani"
+"\Polaris v1.0 (Small)\Polaris v1.0 Person Select (Small).ani"
+
+[Scheme.Cur.Smallest]
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Normal Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Help Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Working In Background (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Busy (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Precision Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Text Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Handwriting (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Unavailable (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Vertical Resize (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Horizontal Resize (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Diagonal Resize 1 (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Diagonal Resize 2 (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Move (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Alternate Select (Smallest).ani" 
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Link Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Location Select (Smallest).ani"
+"\Polaris v1.0 (Smallest)\Polaris v1.0 Person Select (Smallest).ani"
+
+[Scheme.Preview]
+"Polaris v1.0 Preview.png"
+; -- Directory structure of all variants of Polaris v1.0 by Multiple Waters and Preview Image to be copied to C:\Windows\Cursors\Polaris v1.0 by Multiple Waters
+
+[Strings]
+CUR_DIR        		= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME        = "Polaris Ani"
+pointer			= "Polaris v1.0 Normal Select (Large).ani"
+help				= "Polaris v1.0 Help Select (Large).ani"
+work				= "Polaris v1.0 Working In Background (Large).ani"
+busy				= "Polaris v1.0 Busy (Large).ani"
+cross				= "Polaris v1.0 Precision Select (Large).ani"
+text				= "Polaris v1.0 Text Select (Large).ani"
+hand				= "Polaris v1.0 Handwriting (Large).ani"
+unavailable			= "Polaris v1.0 Unavailable (Large).ani"
+vert				= "Polaris v1.0 Vertical Resize (Large).ani"
+horz				= "Polaris v1.0 Horizontal Resize (Large).ani"
+dgn1				= "Polaris v1.0 Diagonal Resize 1 (Large).ani"
+dgn2				= "Polaris v1.0 Diagonal Resize 2 (Large).ani"
+move				= "Polaris v1.0 Move (Large).ani"
+alternate			= "Polaris v1.0 Alternate Select (Large).ani"
+link				= "Polaris v1.0 Link Select (Large).ani"
+person			= "Polaris v1.0 Location Select (Large).ani"
+pin				= "Polaris v1.0 Person Select (Large).ani"
+
+
+CUR_DIR_LARGER        	= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME_LARGER    	= "Polaris v1.0 (Larger)"
+pointer_larger		= "Polaris v1.0 Normal Select (Larger).ani"
+help_larger			= "Polaris v1.0 Help Select (Larger).ani"
+work_larger			= "Polaris v1.0 Working In Background (Larger).ani"
+busy_larger			= "Polaris v1.0 Busy (Larger).ani"
+cross_larger		= "Polaris v1.0 Precision Select (Larger).ani"
+text_larger			= "Polaris v1.0 Text Select (Larger).ani"
+hand_larger			= "Polaris v1.0 Handwriting (Larger).ani"
+unavailable_larger	= "Polaris v1.0 Unavailable (Larger).ani"
+vert_larger			= "Polaris v1.0 Vertical Resize (Larger).ani"
+horz_larger			= "Polaris v1.0 Horizontal Resize (Larger).ani"
+dgn1_larger			= "Polaris v1.0 Diagonal Resize 1 (Larger).ani"
+dgn2_larger			= "Polaris v1.0 Diagonal Resize 2 (Larger).ani"
+move_larger			= "Polaris v1.0 Move (Larger).ani"
+alternate_larger		= "Polaris v1.0 Alternate Select (Larger).ani"
+link_larger			= "Polaris v1.0 Link Select (Larger).ani"
+person_larger		= "Polaris v1.0 Location Select (Larger).ani"
+pin_larger			= "Polaris v1.0 Person Select (Larger).ani"
+
+
+CUR_DIR_LARGEST        	= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME_LARGEST    	= "Polaris v1.0 (Largest)"
+pointer_largest		= "Polaris v1.0 Normal Select (Largest).ani"
+help_largest		= "Polaris v1.0 Help Select (Largest).ani"
+work_largest		= "Polaris v1.0 Working In Background (Largest).ani"
+busy_largest		= "Polaris v1.0 Busy (Largest).ani"
+cross_largest		= "Polaris v1.0 Precision Select (Largest).ani"
+text_largest		= "Polaris v1.0 Text Select (Largest).ani"
+hand_largest		= "Polaris v1.0 Handwriting (Largest).ani"
+unavailable_largest	= "Polaris v1.0 Unavailable (Largest).ani"
+vert_largest		= "Polaris v1.0 Vertical Resize (Largest).ani"
+horz_largest		= "Polaris v1.0 Horizontal Resize (Largest).ani"
+dgn1_largest		= "Polaris v1.0 Diagonal Resize 1 (Largest).ani"
+dgn2_largest		= "Polaris v1.0 Diagonal Resize 2 (Largest).ani"
+move_largest		= "Polaris v1.0 Move (Largest).ani"
+alternate_largest		= "Polaris v1.0 Alternate Select (Largest).ani"
+link_largest		= "Polaris v1.0 Link Select (Largest).ani"
+person_largest		= "Polaris v1.0 Location Select (Largest).ani"
+pin_largest			= "Polaris v1.0 Person Select (Largest).ani"
+
+
+CUR_DIR_MEDIUM        	= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME_MEDIUM    	= "Polaris v1.0 (Medium)"
+pointer_medium		= "Polaris v1.0 Normal Select (Medium).ani"
+help_medium			= "Polaris v1.0 Help Select (Medium).ani"
+work_medium			= "Polaris v1.0 Working In Background (Medium).ani"
+busy_medium			= "Polaris v1.0 Busy (Medium).ani"
+cross_medium		= "Polaris v1.0 Precision Select (Medium).ani"
+text_medium			= "Polaris v1.0 Text Select (Medium).ani"
+hand_medium			= "Polaris v1.0 Handwriting (Medium).ani"
+unavailable_medium	= "Polaris v1.0 Unavailable (Medium).ani"
+vert_medium			= "Polaris v1.0 Vertical Resize (Medium).ani"
+horz_medium			= "Polaris v1.0 Horizontal Resize (Medium).ani"
+dgn1_medium			= "Polaris v1.0 Diagonal Resize 1 (Medium).ani"
+dgn2_medium			= "Polaris v1.0 Diagonal Resize 2 (Medium).ani"
+move_medium			= "Polaris v1.0 Move (Medium).ani"
+alternate_medium		= "Polaris v1.0 Alternate Select (Medium).ani"
+link_medium			= "Polaris v1.0 Link Select (Medium).ani"
+person_medium		= "Polaris v1.0 Location Select (Medium).ani"
+pin_medium			= "Polaris v1.0 Person Select (Medium).ani"
+
+CUR_DIR_SMALL        	= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME_SMALL    	= "Polaris v1.0 (Small)"
+pointer_small		= "Polaris v1.0 Normal Select (Small).ani"
+help_small			= "Polaris v1.0 Help Select (Small).ani"
+work_small			= "Polaris v1.0 Working In Background (Small).ani"
+busy_small			= "Polaris v1.0 Busy (Small).ani"
+cross_small			= "Polaris v1.0 Precision Select (Small).ani"
+text_small			= "Polaris v1.0 Text Select (Small).ani"
+hand_small			= "Polaris v1.0 Handwriting (Small).ani"
+unavailable_small		= "Polaris v1.0 Unavailable (Small).ani"
+vert_small			= "Polaris v1.0 Vertical Resize (Small).ani"
+horz_small			= "Polaris v1.0 Horizontal Resize (Small).ani"
+dgn1_small			= "Polaris v1.0 Diagonal Resize 1 (Small).ani"
+dgn2_small			= "Polaris v1.0 Diagonal Resize 2 (Small).ani"
+move_small			= "Polaris v1.0 Move (Small).ani"
+alternate_small		= "Polaris v1.0 Alternate Select (Small).ani"
+link_small			= "Polaris v1.0 Link Select (Small).ani"
+person_small		= "Polaris v1.0 Location Select (Small).ani"
+pin_small			= "Polaris v1.0 Person Select (Small).ani"
+
+CUR_DIR_SMALLEST       	= "Cursors\Polaris v1.0 by Multiple Waters"
+SCHEME_NAME_SMALLEST    = "Polaris v1.0 (Smallest)"
+pointer_smallest		= "Polaris v1.0 Normal Select (Smallest).ani"
+help_smallest		= "Polaris v1.0 Help Select (Smallest).ani"
+work_smallest		= "Polaris v1.0 Working In Background (Smallest).ani"
+busy_smallest		= "Polaris v1.0 Busy (Smallest).ani"
+cross_smallest		= "Polaris v1.0 Precision Select (Smallest).ani"
+text_smallest		= "Polaris v1.0 Text Select (Smallest).ani"
+hand_smallest		= "Polaris v1.0 Handwriting (Smallest).ani"
+unavailable_smallest	= "Polaris v1.0 Unavailable (Smallest).ani"
+vert_smallest		= "Polaris v1.0 Vertical Resize (Smallest).ani"
+horz_smallest		= "Polaris v1.0 Horizontal Resize (Smallest).ani"
+dgn1_smallest		= "Polaris v1.0 Diagonal Resize 1 (Smallest).ani"
+dgn2_smallest		= "Polaris v1.0 Diagonal Resize 2 (Smallest).ani"
+move_smallest		= "Polaris v1.0 Move (Smallest).ani"
+alternate_smallest	= "Polaris v1.0 Alternate Select (Smallest).ani"
+link_smallest		= "Polaris v1.0 Link Select (Smallest).ani"
+person_smallest		= "Polaris v1.0 Location Select (Smallest).ani"
+pin_smallest		= "Polaris v1.0 Person Select (Smallest).ani"

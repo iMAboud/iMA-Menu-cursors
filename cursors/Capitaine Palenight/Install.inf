@@ -33,7 +33,7 @@ Alternate.cur
 
 [Strings]
 CUR_DIR       = "Cursors\Capitaine Cursors (Palenight)"
-SCHEME_NAME   = "Capitaine Cursors (Palenight)"
+SCHEME_NAME        = "Capitaine Palenight"
 pointer       = "Normal.cur"
 help          = "Help.cur"
 work          = "Working.ani"

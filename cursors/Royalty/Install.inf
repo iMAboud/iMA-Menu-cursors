@@ -34,7 +34,7 @@ Royalty Cursor Pen.cur
 Royalty Cursor Alternate.cur
 [Strings]
 CUR_DIR       = "Cursors\Royalty Cursor Set VSTHEMES ORG"
-SCHEME_NAME   = "Royalty Cursor Set VSTHEMES ORG"
+SCHEME_NAME        = "Royalty"
 pointer       = "Royalty Cursor Normal.cur"
 help          = "Royalty Cursor Help.cur"
 work          = "Royalty Cursor Working.ani"

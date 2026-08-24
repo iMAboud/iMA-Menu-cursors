@@ -36,7 +36,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR       = "Cursors\Simplify Circle Gray"
-SCHEME_NAME   = "Simplify Circle Gray"
+SCHEME_NAME        = "Simplify Circle Gray"
 pointer       = "01_normal_select.cur"
 help          = "02_help_select.cur"
 work          = "03_working_in_background.ani"

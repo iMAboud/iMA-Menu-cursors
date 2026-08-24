@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting (32-48-64)
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"BlueGlass"
 HKCU,"Control Panel\Cursors\Schemes","BlueGlass",,""
+
+[Strings]
+SCHEME_NAME        = "BlueGlass"

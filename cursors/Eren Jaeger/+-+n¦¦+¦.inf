@@ -34,7 +34,7 @@ Alternative2.ani
 
 [Strings]
 CUR_DIR       = "Cursors/Eren Jaeger cursor"
-SCHEME_NAME   = "Eren Jeager cursor"
+SCHEME_NAME        = "Eren Jaeger"
 pointer       = "normal.ani"
 help          = "ayuda.ani"
 work          = "trabajando en segundo plano.ani"

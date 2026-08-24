@@ -33,7 +33,7 @@ working.ani
 
 [Strings]
 CUR_DIR       = "Cursors\DeCody"
-SCHEME_NAME   = "DeCody"
+SCHEME_NAME        = "Decody"
 pointer             = "arrow.cur"
 help                  = "help.cur"
 work                 = "working.ani"

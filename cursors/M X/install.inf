@@ -33,7 +33,7 @@ vert.cur
 
 [Strings]
 CUR_DIR       = "Cursors\MMXX"
-SCHEME_NAME   = "MMXX"
+SCHEME_NAME        = "M X"
 pointer       = "normal.cur"
 help          = "help.cur"
 work          = "working.ani"

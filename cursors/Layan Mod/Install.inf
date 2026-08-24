@@ -37,7 +37,7 @@ up-arrow.cur
 
 [Strings]
 CUR_DIR       = "Cursors\Layan Cursors"
-SCHEME_NAME   = "Layan Cursors"
+SCHEME_NAME        = "Layan Mod"
 pointer       = "default.cur"
 help          = "help.cur"
 work          = "progress.ani"

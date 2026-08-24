@@ -54,3 +54,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Vimix Cursors"
 HKCU,"Control Panel\Cursors\Schemes","Vimix Cursors",,""
+
+[Strings]
+SCHEME_NAME        = "Vimix"

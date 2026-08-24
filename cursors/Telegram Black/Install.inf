@@ -34,7 +34,7 @@ Tg.Pen.cur
 Tg.AlternateSelect.cur
 [Strings]
 CUR_DIR       = "Cursors\Telegram Black"
-SCHEME_NAME   = "Telegram Black"
+SCHEME_NAME        = "Telegram Black"
 pointer       = "Tg.NormalSelect.cur"
 help          = "Tg.HelpSelect.cur"
 work          = "Tg.WorkingInBackground.ani"

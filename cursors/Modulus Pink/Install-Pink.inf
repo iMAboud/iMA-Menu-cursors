@@ -34,7 +34,7 @@ Handwriting.cur
 Alt Select.cur
 [Strings]
 CUR_DIR       = "Cursors\Modulus-Pink"
-SCHEME_NAME   = "Modulus-Pink"
+SCHEME_NAME        = "Modulus Pink"
 pointer       = "Pink-N.ani"
 help          = "Help.cur"
 work          = "Pink-W.ani"

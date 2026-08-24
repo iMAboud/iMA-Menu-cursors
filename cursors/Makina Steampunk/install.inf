@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Makina Steampunk Set"
 HKCU,"Control Panel\Cursors\Schemes","Makina Steampunk Set",,""
+
+[Strings]
+SCHEME_NAME        = "Makina Steampunk"

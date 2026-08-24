@@ -34,7 +34,7 @@ Handwriting.cur
 Alt Select.cur
 [Strings]
 CUR_DIR       = "Cursors\VectorGloss-Blue"
-SCHEME_NAME   = "VectorGloss-Blue"
+SCHEME_NAME        = "Vectorgloss Blue"
 pointer       = "Normal.cur"
 help          = "Help.cur"
 work          = "Working.ani"

@@ -32,7 +32,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR       = "Cursors\niko (oneshot) cursors - by minimoonbun - batch1 v1"
-SCHEME_NAME   = "niko (oneshot) cursors - by minimoonbun - batch1 v1"
+SCHEME_NAME        = "Niko Oneshot"
 pointer       = "01-normal-select.ani"
 help          = "02-help-select.ani"
 work          = "03-working-in-background.ani"

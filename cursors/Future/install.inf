@@ -54,3 +54,6 @@ HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting_32-48-64.a
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Future Cursor"
 HKCU,"Control Panel\Cursors\Schemes","Future Cursor",,""
+
+[Strings]
+SCHEME_NAME        = "Future"

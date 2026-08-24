@@ -34,7 +34,7 @@ Alternative2.cur
 
 [Strings]
 CUR_DIR       = "Gatito cursor-BunnyPloff.devianart"
-SCHEME_NAME   = "Gatito amarillo"
+SCHEME_NAME        = "Gatito"
 pointer       = "normal.cur"
 help          = "ayuda.cur"
 work          = "trabajando en segundo plano.ani"

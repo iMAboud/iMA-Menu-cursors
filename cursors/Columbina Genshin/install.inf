@@ -55,7 +55,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\Chibi Columbina BLZ x VSThemesORG"
-SCHEME_NAME     = "Chibi Columbina BLZ x VSThemesORG"
+SCHEME_NAME        = "Columbina Genshin"
 pointer		= "Normal.ani"
 help		= "Help.ani"
 working		= "Working.ani"

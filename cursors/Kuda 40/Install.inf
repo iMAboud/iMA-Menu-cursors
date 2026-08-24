@@ -58,7 +58,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\KUDA 4.0 White"
-SCHEME_NAME     = "KUDA 4.0 White"
+SCHEME_NAME        = "Kuda 40"
 pointer		= "Arrow.cur"
 help		= "Help.cur"
 work		= "Working.ani"

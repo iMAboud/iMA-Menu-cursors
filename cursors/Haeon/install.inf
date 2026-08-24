@@ -111,7 +111,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_Smallest%",,"%10%\%CUR_DIR_Sm
 
 [Strings]
 CUR_DIR        			= "Cursors\Haeon v1.0 by Multiple Waters VSTHEMES ORG"
-SCHEME_NAME    			= "Haeon v1.0 (Large) VSTHEMES ORG"
+SCHEME_NAME        = "Haeon"
 pointer				= "Haeon v1.0 Normal Select (Large).ani"
 help				= "Haeon v1.0 Help Select (Large).ani"
 work				= "Haeon v1.0 Working In Background (Large).ani"

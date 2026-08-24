@@ -51,7 +51,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR     = "Cursors\Neon_Magenta_VSTHEMES_ORG"
-SCHEME_NAME = "Neon Magenta VSTHEMES ORG (PREMIUM)"
+SCHEME_NAME        = "Neon Magenta"
 pointer		= "Normal.cur"
 help		= "Help.cur"
 working		= "Working.ani"

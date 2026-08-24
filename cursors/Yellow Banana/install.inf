@@ -56,3 +56,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Yellow Banana"
 HKCU,"Control Panel\Cursors\Schemes","Yellow Banana",,""
+
+[Strings]
+SCHEME_NAME        = "Yellow Banana"

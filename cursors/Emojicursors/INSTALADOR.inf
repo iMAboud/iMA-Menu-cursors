@@ -32,7 +32,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 15.CUR
 [Strings]
 CUR_DIR       = "Cursors\EMOJI"
-SCHEME_NAME   = "EMOJIS CURSORS"
+SCHEME_NAME        = "Emojicursors"
 pointer       = "1.cur"
 help          = "2.cur"
 work          = "3.CUR"

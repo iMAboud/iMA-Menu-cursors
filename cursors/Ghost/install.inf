@@ -42,3 +42,6 @@ HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Hand.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Ghost"
 HKCU,"Control Panel\Cursors\Schemes","Ghost",,""
+
+[Strings]
+SCHEME_NAME        = "Ghost"

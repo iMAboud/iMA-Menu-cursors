@@ -34,7 +34,7 @@ Handwriting.cur
 Alternate.cur
 [Strings]
 CUR_DIR       = "Cursors\Stitch Cursor"
-SCHEME_NAME   = "Stitch Cursor"
+SCHEME_NAME        = "Stitch"
 pointer       = "Arrow.cur"
 help          = "Help.cur"
 work          = "Busy.ani"

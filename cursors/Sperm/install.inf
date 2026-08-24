@@ -33,7 +33,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR         = "Cursors\BlackMamba"
-SCHEME_NAME     = "BlackMamba"
+SCHEME_NAME        = "Sperm"
 pointer		= "Arrow.ani"
 help		= "Help.ani"
 work		= "AppStarting.ani"

@@ -55,7 +55,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\Blue n Orange Remake"
-SCHEME_NAME     = "Blue n Orange Remake"
+SCHEME_NAME        = "Blue N Orange"
 pointer		= "Arrow.cur"
 help		= "Help.cur"
 work		= "AppStarting.ani"

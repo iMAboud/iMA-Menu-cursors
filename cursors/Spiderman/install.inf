@@ -54,7 +54,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 
 [Strings]
 CUR_DIR         = "Cursors\[致美化] 蜘蛛侠-标志"
-SCHEME_NAME     = "[致美化] 蜘蛛侠-标志"
+SCHEME_NAME        = "Spiderman"
 pointer		= "normal.cur"
 help		= "help.ani"
 working		= "working.ani"

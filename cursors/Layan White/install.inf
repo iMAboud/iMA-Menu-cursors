@@ -58,3 +58,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Layan White Cursor"
 HKCU,"Control Panel\Cursors\Schemes","Layan White Cursor",,""
+
+[Strings]
+SCHEME_NAME        = "Layan White"

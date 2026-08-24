@@ -33,7 +33,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR         = "Cursors\Radium-blue"
-SCHEME_NAME     = "Radium-blue"
+SCHEME_NAME        = "Radium Blue"
 pointer		= "arrows.ani"
 help		= "help.ani"
 work		= "appstarting.ani"

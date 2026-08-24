@@ -35,7 +35,7 @@ Alternate.cur
 
 [Strings]
 CUR_DIR       = "Cursors\MakotoDesigner"
-SCHEME_NAME   = "Makoto Designer Cursors"
+SCHEME_NAME        = "Makoto"
 pointer       = "Normal.cur"
 help          = "Help.cur"
 work          = "Working.ani"

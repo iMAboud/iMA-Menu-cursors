@@ -36,3 +36,6 @@ HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Hand.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Minecraft Netherite Sword Set v.4"
 HKCU,"Control Panel\Cursors\Schemes","Minecraft Netherite Sword Set v.4",,""
+
+[Strings]
+SCHEME_NAME        = "Minecraft Sword"

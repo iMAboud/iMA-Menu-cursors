@@ -46,3 +46,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\busy_32-48-64.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Overwatch Black"
 HKCU,"Control Panel\Cursors\Schemes","Overwatch Black",,""
+
+[Strings]
+SCHEME_NAME        = "Overwatch Black"

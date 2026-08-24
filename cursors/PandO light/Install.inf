@@ -36,7 +36,7 @@ Zoom-out.cur
 
 [Strings]
 CUR_DIR       = "Cursors\PandO light with shadow"
-SCHEME_NAME   = "PandO light with shadow"
+SCHEME_NAME        = "PandO Light"
 pointer       = "Normal.cur"
 help          = "Help.cur"
 work          = "Working.ani"

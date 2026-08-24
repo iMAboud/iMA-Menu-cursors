@@ -35,7 +35,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR         = "Cursors\Cyberpunk"
-SCHEME_NAME     = "Cyberpunk2077"
+SCHEME_NAME        = "Cyberpunk 2077"
 pointer		= "arrow.cur"
 help		= "help.cur"
 work		= "wait.ani"

@@ -37,7 +37,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR         = "Cursors\Charcoal Black"
-SCHEME_NAME     = "Charcoal Black (optional)"
+SCHEME_NAME        = "Charcoal Black Optional"
 pointer		= "Normal.cur"
 help		= "Help.cur"
 work		= "Working_opt.ani"

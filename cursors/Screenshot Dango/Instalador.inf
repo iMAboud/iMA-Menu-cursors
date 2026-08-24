@@ -34,7 +34,7 @@ Alternative2.cur
 
 [Strings]
 CUR_DIR       = "Cursors\Onigiri Kawaii Cursor by TutozzOranjiPatt"
-SCHEME_NAME   = "Onigiri Kawaii Cursor by TutozzOranjiPatt"
+SCHEME_NAME        = "Screenshot Dango"
 pointer       = "normal.cur"
 help          = "ayuda.cur"
 work          = "trabajando en segundo plano.ani"

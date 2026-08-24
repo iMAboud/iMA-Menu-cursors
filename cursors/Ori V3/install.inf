@@ -33,7 +33,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR      = "Cursors\Ori_v3"
-SCHEME_NAME  = "Ori_v3"
+SCHEME_NAME        = "Ori V3"
 pointer		 = "Ori pointer.cur"
 help		 = "Ori help.ani"
 work		 = "Ori work.ani"

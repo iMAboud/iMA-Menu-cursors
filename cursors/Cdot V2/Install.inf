@@ -36,7 +36,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR = "Cursors\Cursor and install"
-SCHEME_NAME = "CDot by AceAnims"
+SCHEME_NAME        = "Cdot V2"
 pointer = "Pointer.cur"
 help = "Help.cur"
 work = "Work.ani"

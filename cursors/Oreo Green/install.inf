@@ -38,7 +38,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 
 [Strings]
 CUR_DIR = "Cursors\Oreo Green"
-SCHEME_NAME = "Oreo Green"
+SCHEME_NAME        = "Oreo Green"
 cross = "precision-select.cur"
 pointer = "normal-select.cur"
 move = "move.cur"

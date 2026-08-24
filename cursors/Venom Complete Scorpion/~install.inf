@@ -33,7 +33,7 @@ vert.cur
 
 [Strings]
 CUR_DIR       = "Cursors\Venom\Scorpion"
-SCHEME_NAME   = "Venom_Scorpion"
+SCHEME_NAME        = "Venom Complete Scorpion"
 pointer       = "normal.cur"
 help          = "help.cur"
 work          = "working.ani"

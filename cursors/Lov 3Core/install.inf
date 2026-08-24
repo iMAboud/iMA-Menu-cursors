@@ -53,7 +53,7 @@ HKLM,"SOFTWAREMicrosoftWindowsCurrentVersionRunonceSetup","",,"rundll32.exe shel
 
 [Strings]
 CUR_DIR = "Cursorslov3core"
-SCHEME_NAME = "lov3core"
+SCHEME_NAME        = "Lov 3Core"
 
 Normal      = "1 Normal Select.cur"
 Help        = "2 Help Select.cur"

@@ -34,7 +34,7 @@ Alternative.cur
 
 [Strings]
 CUR_DIR       = "Cursors\pinguinkawaii"
-SCHEME_NAME   = "pinguinkawaii"
+SCHEME_NAME        = "Pinguin Kawaii"
 pointer       = "normal.cur"
 help          = "ayuda.cur"
 work          = "trabajando en segundo plano.ani"

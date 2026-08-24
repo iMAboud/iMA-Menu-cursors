@@ -40,3 +40,6 @@ HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait.ani"
 ; Set scheme name
 HKCU,"Control Panel\Cursors","(Default)",,"Breathe 2.0"
 HKCU,"Control Panel\Cursors\Schemes","Breathe 2.0",,""
+
+[Strings]
+SCHEME_NAME        = "Breathe"
