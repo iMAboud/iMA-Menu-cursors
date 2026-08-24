@@ -13,7 +13,7 @@ Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%location%,%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%CUR_DIR%\%location%,%10%\%CUR_DIR%\%person%"
 
 ; Installed files
 
@@ -37,7 +37,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 "Working In Background.ani"
 
 [Strings]
-CUR_DIR = "Cursors\Remus-White-Free"
+CUR_DIR            = "Cursors\Remus white"
 SCHEME_NAME        = "Remus white"
 pointer = "Normal Select.cur"
 help = "Help Select.cur"

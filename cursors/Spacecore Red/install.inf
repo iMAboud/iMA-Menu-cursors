@@ -10,7 +10,7 @@ Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%Person%,%10%\%CUR_DIR%\%Pin%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%CUR_DIR%\%Person%,%10%\%CUR_DIR%\%Pin%"
 HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Cur]
@@ -33,7 +33,7 @@ HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.ex
 "person select.ani"
 
 [Strings]
-CUR_DIR      		= "Cursors\SpaceCore Red VSTHEMES ORG"
+CUR_DIR            = "Cursors\Spacecore Red"
 SCHEME_NAME        = "Spacecore Red"
 pointer				= "normal select.cur"
 help				= "help select.ani"

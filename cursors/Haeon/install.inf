@@ -40,7 +40,7 @@ Scheme.Cur.Smallest = 10,"%CUR_DIR_SMALLEST%"
 ; --Registry keys for all the variants of Haeon v1.0 to be written for current user.
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Haeon v1.0 (Large)\%pointer%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%help%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%work%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%busy%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%cross%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Text%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Hand%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%unavailable%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Vert%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Horz%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Dgn1%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Dgn2%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%move%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%alternate%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%link%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Person%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Pin%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%Person%,%10%\%CUR_DIR%\%Pin%"
 HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Reg.Medium]
@@ -110,7 +110,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_Smallest%",,"%10%\%CUR_DIR_Sm
 "\Haeon v1.0 (Smallest)\Haeon v1.0 Person Select (Smallest).ani"
 
 [Strings]
-CUR_DIR        			= "Cursors\Haeon v1.0 by Multiple Waters VSTHEMES ORG"
+CUR_DIR            = "Cursors\Haeon"
 SCHEME_NAME        = "Haeon"
 pointer				= "Haeon v1.0 Normal Select (Large).ani"
 help				= "Haeon v1.0 Help Select (Large).ani"

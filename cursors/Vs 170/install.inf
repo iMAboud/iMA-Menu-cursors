@@ -9,7 +9,7 @@ AddReg              = Scheme.Reg
 Scheme.Cur          = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
 
 [Scheme.Cur]
 "pointer.cur"
@@ -31,7 +31,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 "person.cur"
 
 [Strings]
-CUR_DIR             = "Cursors\VS Cursor 17.0"
+CUR_DIR            = "Cursors\Vs 170"
 SCHEME_NAME        = "Vs 170"
 pointer             = "pointer.cur"
 help                = "help.cur"

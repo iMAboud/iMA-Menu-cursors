@@ -31,7 +31,7 @@ Location Select.cur
 Person Select.cur
 
 [Strings]
-CUR_DIR       = "Windows\Cursors\Nord Cursor"
+CUR_DIR            = "Cursors\Nord M"
 SCHEME_NAME        = "Nord M"
 pointer       = "Normal Select.cur"
 help          = "Help Select.cur"

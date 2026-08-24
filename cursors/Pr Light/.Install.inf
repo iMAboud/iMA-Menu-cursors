@@ -31,7 +31,7 @@ Location Select.cur
 Person Select.cur
 
 [Strings]
-CUR_DIR       = "Windows\Cursors\PR LIGHT"
+CUR_DIR            = "Cursors\Pr Light"
 SCHEME_NAME        = "Pr Light"
 pointer       = "Normal Select.cur"
 help          = "Help Select.cur"

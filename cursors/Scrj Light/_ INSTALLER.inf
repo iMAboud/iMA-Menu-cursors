@@ -13,7 +13,7 @@ Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
 
 ; --> Cursor file names
 
@@ -37,7 +37,7 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 ; --> Cursor scheme and file names
 
 [Strings]
-CUR_DIR        	= "Cursors\sCRJ Cursors v2.1 LIGHT"
+CUR_DIR            = "Cursors\Scrj Light"
 SCHEME_NAME        = "Scrj Light"
 pointer			= "sCRJ Cursors v2.1 LIGHT - Normal Select.cur"
 help			= "sCRJ Cursors v2.1 LIGHT - Help Select.cur"

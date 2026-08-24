@@ -10,7 +10,7 @@ AddReg=Scheme.Reg
 Scheme.Cur=10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\arrow.cur,%10%\%CUR_DIR%\help.cur,%10%\%CUR_DIR%\working.cur,%10%\%CUR_DIR%\busy.cur,%10%\%CUR_DIR%\cross.cur,%10%\%CUR_DIR%\ibeam.cur,%10%\%CUR_DIR%\handwriting.cur,%10%\%CUR_DIR%\unavail.cur,%10%\%CUR_DIR%\vert.cur,%10%\%CUR_DIR%\horz.cur,%10%\%CUR_DIR%\dgn1.cur,%10%\%CUR_DIR%\dgn2.cur,%10%\%CUR_DIR%\move.cur,%10%\%CUR_DIR%\alternate.cur,%10%\%CUR_DIR%\link.cur,%10%\%CUR_DIR%\pin.cur,%10%\%CUR_DIR%\person.cur"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%CUR_DIR%\help.cur,%10%\%CUR_DIR%\%CUR_DIR%\busy.cur,%10%\%CUR_DIR%\%CUR_DIR%\ibeam.cur,%10%\%CUR_DIR%\%CUR_DIR%\unavail.cur,%10%\%CUR_DIR%\%CUR_DIR%\horz.cur,%10%\%CUR_DIR%\%CUR_DIR%\dgn2.cur,%10%\%CUR_DIR%\%CUR_DIR%\alternate.cur,%10%\%CUR_DIR%\%CUR_DIR%\pin.cur,%10%\%CUR_DIR%\person.cur"
 
 [Scheme.Cur]
 pin.cur
@@ -32,5 +32,5 @@ move.cur
 help.cur
 
 [Strings]
-CUR_DIR="Cursors\iMA"
+CUR_DIR            = "Cursors\Harry Potter"
 SCHEME_NAME        = "Harry Potter"

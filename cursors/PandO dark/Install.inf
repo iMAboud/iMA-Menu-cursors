@@ -9,7 +9,7 @@ AddReg    = Scheme.Reg
 Scheme.Cur = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pan%,%10%\%CUR_DIR%\%grab%,%10%\%CUR_DIR%\%grabbing%,%10%\%CUR_DIR%\%zoom-in%,%10%\%CUR_DIR%\%zoom-out%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%CUR_DIR%\%pan%,%10%\%CUR_DIR%\%CUR_DIR%\%grabbing%,%10%\%CUR_DIR%\%CUR_DIR%\%zoom-out%"
 
 [Scheme.Cur]
 Normal.cur
@@ -35,7 +35,7 @@ Zoom-in.cur
 Zoom-out.cur
 
 [Strings]
-CUR_DIR       = "Cursors\PandO dark with shadow"
+CUR_DIR            = "Cursors\PandO Dark"
 SCHEME_NAME        = "PandO Dark"
 pointer       = "Normal.cur"
 help          = "Help.cur"

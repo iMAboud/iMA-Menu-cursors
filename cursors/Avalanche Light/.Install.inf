@@ -31,7 +31,7 @@ Location Select.ani
 Person Select.cur
 
 [Strings]
-CUR_DIR       = "Windows\Cursors\avalanche light"
+CUR_DIR            = "Cursors\Avalanche Light"
 SCHEME_NAME        = "Avalanche Light"
 pointer       = "Normal Select.cur"
 help          = "Help Select.cur"

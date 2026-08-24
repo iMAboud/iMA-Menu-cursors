@@ -10,7 +10,7 @@ Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
 
 ; -- Installed files
 
@@ -32,7 +32,7 @@ up.cur
 working.ani
 
 [Strings]
-CUR_DIR       = "Cursors\DeCody"
+CUR_DIR            = "Cursors\Decody"
 SCHEME_NAME        = "Decody"
 pointer             = "arrow.cur"
 help                  = "help.cur"
