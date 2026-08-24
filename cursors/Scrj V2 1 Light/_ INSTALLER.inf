@@ -1,0 +1,56 @@
+; sCRJ Cursors v2.1 LIGHT (INSTALLER)
+; created by Carter Janik -- https://studiocrj.crd.co
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; --> Cursor file names
+
+[Scheme.Cur]
+"sCRJ Cursors v2.1 LIGHT - Normal Select.cur"
+"sCRJ Cursors v2.1 LIGHT - Help Select.cur"
+"sCRJ Cursors v2.1 LIGHT - Working in Background.ani"
+"sCRJ Cursors v2.1 LIGHT - Busy.ani"
+"sCRJ Cursors v2.1 LIGHT - Precision Select.cur"
+"sCRJ Cursors v2.1 LIGHT - Text Select.cur"
+"sCRJ Cursors v2.1 LIGHT - Handwriting.cur"
+"sCRJ Cursors v2.1 LIGHT - Unavailable.cur"
+"sCRJ Cursors v2.1 LIGHT - Vertical Resize.cur"
+"sCRJ Cursors v2.1 LIGHT - Horizontal Resize.cur"
+"sCRJ Cursors v2.1 LIGHT - Diagonal Resize 1.cur"
+"sCRJ Cursors v2.1 LIGHT - Diagonal Resize 2.cur"
+"sCRJ Cursors v2.1 LIGHT - Move.cur"
+"sCRJ Cursors v2.1 LIGHT - Alternate Select.cur"
+"sCRJ Cursors v2.1 LIGHT - Link Select.cur"
+
+; --> Cursor scheme and file names
+
+[Strings]
+CUR_DIR        	= "Cursors\sCRJ Cursors v2.1 LIGHT"
+SCHEME_NAME     = "sCRJ Cursors v2.1 LIGHT"
+pointer			= "sCRJ Cursors v2.1 LIGHT - Normal Select.cur"
+help			= "sCRJ Cursors v2.1 LIGHT - Help Select.cur"
+work			= "sCRJ Cursors v2.1 LIGHT - Working in Background.ani"
+busy			= "sCRJ Cursors v2.1 LIGHT - Busy.ani"
+cross			= "sCRJ Cursors v2.1 LIGHT - Precision Select.cur"
+text			= "sCRJ Cursors v2.1 LIGHT - Text Select.cur"
+hand			= "sCRJ Cursors v2.1 LIGHT - Handwriting.cur"
+unavailiable	= "sCRJ Cursors v2.1 LIGHT - Unavailable.cur"
+vert			= "sCRJ Cursors v2.1 LIGHT - Vertical Resize.cur"
+horz			= "sCRJ Cursors v2.1 LIGHT - Horizontal Resize.cur"
+dgn1			= "sCRJ Cursors v2.1 LIGHT - Diagonal Resize 1.cur"
+dgn2			= "sCRJ Cursors v2.1 LIGHT - Diagonal Resize 2.cur"
+move			= "sCRJ Cursors v2.1 LIGHT - Move.cur"
+alternate		= "sCRJ Cursors v2.1 LIGHT - Alternate Select.cur"
+link			= "sCRJ Cursors v2.1 LIGHT - Link Select.cur"

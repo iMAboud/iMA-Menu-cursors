@@ -1,0 +1,53 @@
+[Version]
+signature="$CHICAGO$"
+Rounded edge Bibata cursors with Zebra stripes
+https://github.com/ful1e5/Bibata-Zebra-Cursor
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Installed files
+
+[Scheme.Cur]
+"Work.ani"
+"Busy.ani"
+"Default.ani"
+"Help.ani"
+"Link.ani"
+"Move.ani"
+"Diagonal_2.ani"
+"Vertical.ani"
+"Horizontal.ani"
+"Diagonal_1.ani"
+"Handwriting.ani"
+"Cross.ani"
+"IBeam.ani"
+"Unavailiable.ani"
+"Alternate.ani"
+
+[Strings]
+CUR_DIR           = "Cursors\Bibata-Zebra-Modern Cursors"
+SCHEME_NAME       = "Bibata-Zebra-Modern Cursors"
+pointer           = "Default.ani"
+help              = "Help.ani"
+work              = "Work.ani"
+busy              = "Busy.ani"
+cross             = "Cross.ani"
+text              = "IBeam.ani"
+hand              = "Handwriting.ani"
+unavailiable      = "Unavailiable.ani"
+vert              = "Vertical.ani"
+horz              = "Horizontal.ani"
+dgn1              = "Diagonal_1.ani"
+dgn2              = "Diagonal_2.ani"
+move              = "Move.ani"
+alternate         = "Alternate.ani"
+link              = "Link.ani"

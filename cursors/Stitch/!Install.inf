@@ -1,0 +1,52 @@
+; Stitch Cursor
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Arrow.cur
+Help.cur
+Busy.ani
+Load.ani
+Text.cur
+Unavailable.cur
+Horizontal.cur
+Vertical.cur
+Diagonal 1.cur
+Diagonal 2.cur
+Move.cur
+Link.cur
+Precision.cur
+Handwriting.cur
+Alternate.cur
+[Strings]
+CUR_DIR       = "Cursors\Stitch Cursor"
+SCHEME_NAME   = "Stitch Cursor"
+pointer       = "Arrow.cur"
+help          = "Help.cur"
+work          = "Busy.ani"
+busy          = "Load.ani"
+text          = "Text.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "Vertical.cur"
+horz          = "Horizontal.cur"
+dgn1          = "Diagonal 1.cur"
+dgn2          = "Diagonal 2.cur"
+move          = "Move.cur"
+link          = "Link.cur"
+cross         = "Precision.cur"
+hand          = "Handwriting.cur"
+alternate     = "Alternate.cur"

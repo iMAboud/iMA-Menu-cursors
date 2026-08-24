@@ -1,0 +1,52 @@
+; Telegram Black
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Tg.NormalSelect.cur
+Tg.HelpSelect.cur
+Tg.WorkingInBackground.ani
+Tg.Busy.ani
+Tg.Text.cur
+Tg.Unavailable.cur
+Tg.VerticalResize.cur
+Tg.HorizontalResize.cur
+Tg.DiagonalResize1.cur
+Tg.DiagonalResize2.cur
+Tg.Move.cur
+Tg.Pointer.cur
+Tg.Cross.cur
+Tg.Pen.cur
+Tg.AlternateSelect.cur
+[Strings]
+CUR_DIR       = "Cursors\Telegram Black"
+SCHEME_NAME   = "Telegram Black"
+pointer       = "Tg.NormalSelect.cur"
+help          = "Tg.HelpSelect.cur"
+work          = "Tg.WorkingInBackground.ani"
+busy          = "Tg.Busy.ani"
+text          = "Tg.Text.cur"
+unavailiable  = "Tg.Unavailable.cur"
+vert          = "Tg.HorizontalResize.cur"
+horz          = "Tg.VerticalResize.cur"
+dgn1          = "Tg.DiagonalResize1.cur"
+dgn2          = "Tg.DiagonalResize2.cur"
+move          = "Tg.Move.cur"
+link          = "Tg.Pointer.cur"
+cross         = "Tg.Cross.cur"
+hand          = "Tg.Pen.cur"
+alternate     = "Tg.AlternateSelect.cur"

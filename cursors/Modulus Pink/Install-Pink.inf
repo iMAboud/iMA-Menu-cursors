@@ -1,0 +1,52 @@
+; Modulus-Pink
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Pink-N.ani
+Help.cur
+Pink-W.ani
+Pink-B.ani
+Text.cur
+Unavailable.cur
+Hori-Res.cur
+Vert-Res.cur
+Dia-Res1.cur
+Dia-Res2.cur
+Move.cur
+Pink-L.ani
+Precision.cur
+Handwriting.cur
+Alt Select.cur
+[Strings]
+CUR_DIR       = "Cursors\Modulus-Pink"
+SCHEME_NAME   = "Modulus-Pink"
+pointer       = "Pink-N.ani"
+help          = "Help.cur"
+work          = "Pink-W.ani"
+busy          = "Pink-B.ani"
+text          = "Text.cur"
+unavailiable  = "Unavailable.cur"
+vert          = "Vert-Res.cur"
+horz          = "Hori-Res.cur"
+dgn1          = "Dia-Res1.cur"
+dgn2          = "Dia-Res2.cur"
+move          = "Move.cur"
+link          = "Pink-L.ani"
+cross         = "Precision.cur"
+hand          = "Handwriting.cur"
+alternate     = "Alt Select.cur"

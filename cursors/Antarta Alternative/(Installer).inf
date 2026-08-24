@@ -1,0 +1,61 @@
+;           *________   ________  __________  ___   ___ *___________  ________  _________  __________
+;          /   _    /  / ___   / / ________/ /  / _/ _/ \   _______/ / ___   / /   _    / /         /
+;         /  /  /  /  /  / /  / /  /        /  /_/ _/   /   /___    /  / /  / /  /  /  / /   /_____/
+;        /  /__/  /  /  / /  / /  /        /  // _/    /  _____/   /  / /  / /  /__/  / /   /     
+;       /  /_____/  /  / /  / /  /        /     /     /  /        /  / /  / /  /_____/  \   \___
+;      /  /\  \    /  / /  / /  /        /  / \  \   /  /        /  / /  / /  /\  \  /\__\__    \
+;     /  /  \  \  /  __/  / /  /______  /  /  /  /  /  /        /  __/  / /  /  \  \ \          /
+;    /__/   /__/ /_______/ /_________/ /__/  /__/  /__/        /_______/ /__/   /__/  \________/
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; Регистрационное имя.
+
+[Scheme.Cur]
+"Normal select.ani"
+"Help select.ani"
+"Hard Working.ani"
+"Busy.ani"
+"Precision select.ani"
+"Text.ani"
+"HandWriting.ani"
+"No.ani"
+"Vertical.ani"
+"Horizontal.ani"
+"Diagonal 1.ani"
+"Diagonal 2.ani"
+"Move.ani"
+"Alternate.ani"
+"Link.ani"
+
+; Указ местоположение
+
+[Strings]
+CUR_DIR        			                 	 = "Cursors\Antarta ( Alternative )"
+SCHEME_NAME    			                 	 = "Antarta ( Alternative )"
+pointer							 = "Normal select.ani"
+help						         = "Help select.ani"
+work						 	 = "Hard Working.ani"
+busy							 = "Busy.ani"
+cross							 = "Precision select.ani"
+text							 = "Text.ani"
+hand							 = "HandWriting.ani"
+unavailiable						 = "No.ani"
+vert							 = "Vertical.ani"
+horz							 = "Horizontal.ani"
+dgn1							 = "Diagonal 1.ani"
+dgn2							 = "Diagonal 2.ani"
+move							 = "Move.ani"
+alternate                                                = "Alternate.ani"
+link							 = "Link.ani"

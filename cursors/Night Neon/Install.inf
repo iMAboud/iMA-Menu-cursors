@@ -1,0 +1,53 @@
+; Night Neon Cursor Set
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Night-Neon_0000_Normal.cur
+Night-Neon_0002_Help.cur
+Plasma Cursor.ani
+Neon Magenta BusyWorking2.ani
+Night-Neon_0009_I-beam-text.cur
+Night-Neon_0003_No.cur
+Night-Neon_0008_Vertical.cur
+Night-Neon_0007_Horizontal.cur
+Night-Neon_0006_Resize-1.cur
+Night-Neon_0005_Resize-2.cur
+Night-Neon_0004_Move.cur
+Night-Neon_0015_Link.cur
+Night-Neon_0011_Precision.cur
+Night-Neon_0010_pen.cur
+Night-Neon_0001_Alternate.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Night Neon Cursor Set VSTHEMES ORG"
+SCHEME_NAME   = "Night Neon Cursor Set VSTHEMES ORG"
+pointer       = "Night-Neon_0000_Normal.cur"
+help          = "Night-Neon_0002_Help.cur"
+work          = "Plasma Cursor.ani"
+busy          = "Neon Magenta BusyWorking2.ani"
+text          = "Night-Neon_0009_I-beam-text.cur"
+unavailiable  = "Night-Neon_0003_No.cur"
+vert          = "Night-Neon_0007_Horizontal.cur"
+horz          = "Night-Neon_0008_Vertical.cur"
+dgn1          = "Night-Neon_0006_Resize-1.cur"
+dgn2          = "Night-Neon_0005_Resize-2.cur"
+move          = "Night-Neon_0004_Move.cur"
+link          = "Night-Neon_0015_Link.cur"
+cross         = "Night-Neon_0011_Precision.cur"
+hand          = "Night-Neon_0010_pen.cur"
+alternate     = "Night-Neon_0001_Alternate.cur"

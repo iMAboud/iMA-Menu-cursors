@@ -1,0 +1,173 @@
+,................................................
+Haeon v1.0 Animated Cursors by Multiple Waters
+................................................
+*****        ****	****         ****
+**** *     * ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	****  ****   ****
+****  ****   ****	**** *     * ****
+................................................
+....	   ....   ....   
+....	   ....   ....
+....	   ....   ....
+....	   ....   ....
+.... ..... ....   ....
+.... ..... ....   ....
+....	   ....   ....
+....	   ....   ....
+....	   ....   .... 
+,................................................
+
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt, Scheme.Cur.Medium, Scheme.Txt.Medium, Scheme.Cur.Smallest, Scheme.Txt.Smallest
+AddReg    = Scheme.Reg, Scheme.Reg.Medium, Scheme.Reg.Smallest
+
+; --Destination directories for all necessary folder structure which is mainly read from the [Strings] Section.
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+Scheme.Cur.Medium = 10,"%CUR_DIR_MEDIUM%"
+Scheme.Cur.Smallest = 10,"%CUR_DIR_SMALLEST%"
+
+; --Registry keys for all the variants of Haeon v1.0 to be written for current user.
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Haeon v1.0 (Large)\%pointer%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%help%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%work%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%busy%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%cross%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Text%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Hand%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%unavailable%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Vert%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Horz%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Dgn1%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Dgn2%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%move%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%alternate%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%link%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Person%,%10%\%CUR_DIR%\Haeon v1.0 (Large)\%Pin%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Reg.Medium]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_MEDIUM%",,"%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%pointer_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%help_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%work_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%busy_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%cross_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Text_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Hand_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%unavailable_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Vert_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Horz_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Dgn1_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Dgn2_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%move_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%alternate_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%link_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Person_medium%,%10%\%CUR_DIR_MEDIUM%\Haeon v1.0 (Medium)\%Pin_medium%"
+
+[Scheme.Reg.Smallest]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_Smallest%",,"%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%pointer_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%help_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%work_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%busy_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%cross_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Text_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Hand_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%unavailable_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Vert_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Horz_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Dgn1_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Dgn2_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%move_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%alternate_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%link_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Person_Smallest%,%10%\%CUR_DIR_Smallest%\Haeon v1.0 (Smallest)\%Pin_Smallest%"
+
+
+; -- Directory structure of actual cursor files found in the root directory of Haeon v1.0 by Multiple Waters
+
+[Scheme.Cur]
+"\Haeon v1.0 (Large)\Haeon v1.0 Normal Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Help Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Working In Background (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Busy (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Precision Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Text Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Handwriting (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Unavailable (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Vertical Resize (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Horizontal Resize (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Diagonal Resize 1 (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Diagonal Resize 2 (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Move (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Alternate Select (Large).ani" 
+"\Haeon v1.0 (Large)\Haeon v1.0 Link Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Location Select (Large).ani"
+"\Haeon v1.0 (Large)\Haeon v1.0 Person Select (Large).ani"
+
+[Scheme.Cur.Medium]
+"\Haeon v1.0 (Medium)\Haeon v1.0 Normal Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Help Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Working In Background (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Busy (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Precision Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Text Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Handwriting (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Unavailable (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Vertical Resize (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Horizontal Resize (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Diagonal Resize 1 (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Diagonal Resize 2 (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Move (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Alternate Select (Medium).ani" 
+"\Haeon v1.0 (Medium)\Haeon v1.0 Link Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Location Select (Medium).ani"
+"\Haeon v1.0 (Medium)\Haeon v1.0 Person Select (Medium).ani"
+
+[Scheme.Cur.Smallest]
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Normal Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Help Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Working In Background (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Busy (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Precision Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Text Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Handwriting (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Unavailable (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Vertical Resize (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Horizontal Resize (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Diagonal Resize 1 (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Diagonal Resize 2 (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Move (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Alternate Select (Smallest).ani" 
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Link Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Location Select (Smallest).ani"
+"\Haeon v1.0 (Smallest)\Haeon v1.0 Person Select (Smallest).ani"
+
+[Strings]
+CUR_DIR        			= "Cursors\Haeon v1.0 by Multiple Waters VSTHEMES ORG"
+SCHEME_NAME    			= "Haeon v1.0 (Large) VSTHEMES ORG"
+pointer				= "Haeon v1.0 Normal Select (Large).ani"
+help				= "Haeon v1.0 Help Select (Large).ani"
+work				= "Haeon v1.0 Working In Background (Large).ani"
+busy				= "Haeon v1.0 Busy (Large).ani"
+cross				= "Haeon v1.0 Precision Select (Large).ani"
+text				= "Haeon v1.0 Text Select (Large).ani"
+hand				= "Haeon v1.0 Handwriting (Large).ani"
+unavailable			= "Haeon v1.0 Unavailable (Large).ani"
+vert				= "Haeon v1.0 Vertical Resize (Large).ani"
+horz				= "Haeon v1.0 Horizontal Resize (Large).ani"
+dgn1				= "Haeon v1.0 Diagonal Resize 1 (Large).ani"
+dgn2				= "Haeon v1.0 Diagonal Resize 2 (Large).ani"
+move				= "Haeon v1.0 Move (Large).ani"
+alternate			= "Haeon v1.0 Alternate Select (Large).ani"
+link				= "Haeon v1.0 Link Select (Large).ani"
+person				= "Haeon v1.0 Location Select (Large).ani"
+pin				= "Haeon v1.0 Person Select (Large).ani"
+
+
+CUR_DIR_MEDIUM        		= "Cursors\Haeon v1.0 by Multiple Waters VSTHEMES ORG"
+SCHEME_NAME_MEDIUM    		= "Haeon v1.0 (Medium) VSTHEMES ORG"
+pointer_medium			= "Haeon v1.0 Normal Select (Medium).ani"
+help_medium			= "Haeon v1.0 Help Select (Medium).ani"
+work_medium			= "Haeon v1.0 Working In Background (Medium).ani"
+busy_medium			= "Haeon v1.0 Busy (Medium).ani"
+cross_medium			= "Haeon v1.0 Precision Select (Medium).ani"
+text_medium			= "Haeon v1.0 Text Select (Medium).ani"
+hand_medium			= "Haeon v1.0 Handwriting (Medium).ani"
+unavailable_medium		= "Haeon v1.0 Unavailable (Medium).ani"
+vert_medium			= "Haeon v1.0 Vertical Resize (Medium).ani"
+horz_medium			= "Haeon v1.0 Horizontal Resize (Medium).ani"
+dgn1_medium			= "Haeon v1.0 Diagonal Resize 1 (Medium).ani"
+dgn2_medium			= "Haeon v1.0 Diagonal Resize 2 (Medium).ani"
+move_medium			= "Haeon v1.0 Move (Medium).ani"
+alternate_medium		= "Haeon v1.0 Alternate Select (Medium).ani"
+link_medium			= "Haeon v1.0 Link Select (Medium).ani"
+person_medium			= "Haeon v1.0 Location Select (Medium).ani"
+pin_medium			= "Haeon v1.0 Person Select (Medium).ani"
+
+
+CUR_DIR_SMALLEST       		= "Cursors\Haeon v1.0 by Multiple Waters VSTHEMES ORG"
+SCHEME_NAME_SMALLEST    	= "Haeon v1.0 (Smallest) VSTHEMES ORG"
+pointer_smallest		= "Haeon v1.0 Normal Select (Smallest).ani"
+help_smallest			= "Haeon v1.0 Help Select (Smallest).ani"
+work_smallest			= "Haeon v1.0 Working In Background (Smallest).ani"
+busy_smallest			= "Haeon v1.0 Busy (Smallest).ani"
+cross_smallest			= "Haeon v1.0 Precision Select (Smallest).ani"
+text_smallest			= "Haeon v1.0 Text Select (Smallest).ani"
+hand_smallest			= "Haeon v1.0 Handwriting (Smallest).ani"
+unavailable_smallest		= "Haeon v1.0 Unavailable (Smallest).ani"
+vert_smallest			= "Haeon v1.0 Vertical Resize (Smallest).ani"
+horz_smallest			= "Haeon v1.0 Horizontal Resize (Smallest).ani"
+dgn1_smallest			= "Haeon v1.0 Diagonal Resize 1 (Smallest).ani"
+dgn2_smallest			= "Haeon v1.0 Diagonal Resize 2 (Smallest).ani"
+move_smallest			= "Haeon v1.0 Move (Smallest).ani"
+alternate_smallest		= "Haeon v1.0 Alternate Select (Smallest).ani"
+link_smallest			= "Haeon v1.0 Link Select (Smallest).ani"
+person_smallest			= "Haeon v1.0 Location Select (Smallest).ani"
+pin_smallest			= "Haeon v1.0 Person Select (Smallest).ani"

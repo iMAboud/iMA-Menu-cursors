@@ -1,0 +1,50 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+1.CUR
+2.CUR
+3.CUR
+4.CUR
+5.CUR
+6.CUR
+7.CUR
+8.CUR
+9.CUR
+10.CUR
+11.CUR
+12.CUR
+13.CUR
+14.CUR
+15.CUR
+[Strings]
+CUR_DIR       = "Cursors\EMOJI"
+SCHEME_NAME   = "EMOJIS CURSORS"
+pointer       = "1.cur"
+help          = "2.cur"
+work          = "3.CUR"
+busy          = "4.CUR"
+text          = "6.cur"
+unavailiable  = "8.cur"
+vert          = "9.cur"
+horz          = "10.cur"
+dgn1          = "11.cur"
+dgn2          = "12.cur"
+move          = "13.cur"
+link          = "15.cur"
+cross         = "14.cur"
+hand          = "7.cur"
+alternate     = "5.cur"

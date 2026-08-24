@@ -1,0 +1,74 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg,Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control PanelCursorsSchemes","%SCHEME_NAME%",,"%10%%CUR_DIR%%Normal%,%10%%CUR_DIR%%Help%,%10%%CUR_DIR%%Working%,%10%%CUR_DIR%%Busy%,%10%%CUR_DIR%%Precision%,%10%%CUR_DIR%%Text%,%10%%CUR_DIR%%Handwriting%,%10%%CUR_DIR%%Unavailable%,%10%%CUR_DIR%%Vertical%,%10%%CUR_DIR%%Horizontal%,%10%%CUR_DIR%%Diag1%,%10%%CUR_DIR%%Diag2%,%10%%CUR_DIR%%Move%,%10%%CUR_DIR%%Alternate%,%10%%CUR_DIR%%Link%,%10%%CUR_DIR%%Location%,%10%%CUR_DIR%%Person%"
+
+[Wreg]
+HKCU,"Control PanelCursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control PanelCursors",Arrow,0x00020000,"%10%%CUR_DIR%%Normal%"
+HKCU,"Control PanelCursors",Help,0x00020000,"%10%%CUR_DIR%%Help%"
+HKCU,"Control PanelCursors",AppStarting,0x00020000,"%10%%CUR_DIR%%Working%"
+HKCU,"Control PanelCursors",Wait,0x00020000,"%10%%CUR_DIR%%Busy%"
+HKCU,"Control PanelCursors",Crosshair,0x00020000,"%10%%CUR_DIR%%Precision%"
+HKCU,"Control PanelCursors",IBeam,0x00020000,"%10%%CUR_DIR%%Text%"
+HKCU,"Control PanelCursors",NWPen,0x00020000,"%10%%CUR_DIR%%Handwriting%"
+HKCU,"Control PanelCursors",No,0x00020000,"%10%%CUR_DIR%%Unavailable%"
+HKCU,"Control PanelCursors",SizeNS,0x00020000,"%10%%CUR_DIR%%Vertical%"
+HKCU,"Control PanelCursors",SizeWE,0x00020000,"%10%%CUR_DIR%%Horizontal%"
+HKCU,"Control PanelCursors",SizeNWSE,0x00020000,"%10%%CUR_DIR%%Diag1%"
+HKCU,"Control PanelCursors",SizeNESW,0x00020000,"%10%%CUR_DIR%%Diag2%"
+HKCU,"Control PanelCursors",SizeAll,0x00020000,"%10%%CUR_DIR%%Move%"
+HKCU,"Control PanelCursors",UpArrow,0x00020000,"%10%%CUR_DIR%%Alternate%"
+HKCU,"Control PanelCursors",Hand,0x00020000,"%10%%CUR_DIR%%Link%"
+HKCU,"Control PanelCursors",Location,0x00020000,"%10%%CUR_DIR%%Location%"
+HKCU,"Control PanelCursors",Person,0x00020000,"%10%%CUR_DIR%%Person%"
+HKLM,"SOFTWAREMicrosoftWindowsCurrentVersionRunonceSetup","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0"
+
+[Scheme.Cur]
+"1 Normal Select.cur"
+"2 Help Select.cur"
+"3 Working in Background.cur"
+"4 Busy.cur"
+"5 Precision Select.cur"
+"6 Text Select.cur"
+"7 Handwriting.cur"
+"8 Unavailable.cur"
+"9 Vertical Resize.cur"
+"10 Horizontal Resize.cur"
+"11 Diagonal Resize 1.cur"
+"12 Diagonal Resize 2.cur"
+"13 Move.cur"
+"14 Alternate Select.cur"
+"15 Link Select.cur"
+"16 Location Select.cur"
+"17 Person Select.cur"
+
+[Strings]
+CUR_DIR = "Cursorslov3core"
+SCHEME_NAME = "lov3core"
+
+Normal      = "1 Normal Select.cur"
+Help        = "2 Help Select.cur"
+Working     = "3 Working in Background.cur"
+Busy        = "4 Busy.cur"
+Precision   = "5 Precision Select.cur"
+Text        = "6 Text Select.cur"
+Handwriting = "7 Handwriting.cur"
+Unavailable = "8 Unavailable.cur"
+Vertical    = "9 Vertical Resize.cur"
+Horizontal  = "10 Horizontal Resize.cur"
+Diag1       = "11 Diagonal Resize 1.cur"
+Diag2       = "12 Diagonal Resize 2.cur"
+Move        = "13 Move.cur"
+Alternate   = "14 Alternate Select.cur"
+Link        = "15 Link Select.cur"
+Location    = "16 Location Select.cur"
+Person      = "17 Person Select.cur"

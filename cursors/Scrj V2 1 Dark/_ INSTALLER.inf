@@ -1,0 +1,56 @@
+; sCRJ Cursors v2.1 DARK (INSTALLER)
+; created by Carter Janik -- https://studiocrj.crd.co
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; --> Cursor file names
+
+[Scheme.Cur]
+"sCRJ Cursors v2.1 DARK - Normal Select.cur"
+"sCRJ Cursors v2.1 DARK - Help Select.cur"
+"sCRJ Cursors v2.1 DARK - Working in Background.ani"
+"sCRJ Cursors v2.1 DARK - Busy.ani"
+"sCRJ Cursors v2.1 DARK - Precision Select.cur"
+"sCRJ Cursors v2.1 DARK - Text Select.cur"
+"sCRJ Cursors v2.1 DARK - Handwriting.cur"
+"sCRJ Cursors v2.1 DARK - Unavailable.cur"
+"sCRJ Cursors v2.1 DARK - Vertical Resize.cur"
+"sCRJ Cursors v2.1 DARK - Horizontal Resize.cur"
+"sCRJ Cursors v2.1 DARK - Diagonal Resize 1.cur"
+"sCRJ Cursors v2.1 DARK - Diagonal Resize 2.cur"
+"sCRJ Cursors v2.1 DARK - Move.cur"
+"sCRJ Cursors v2.1 DARK - Alternate Select.cur"
+"sCRJ Cursors v2.1 DARK - Link Select.cur"
+
+; --> Cursor scheme and file names
+
+[Strings]
+CUR_DIR        	= "Cursors\sCRJ Cursors v2.1 DARK"
+SCHEME_NAME     = "sCRJ Cursors v2.1 DARK"
+pointer			= "sCRJ Cursors v2.1 DARK - Normal Select.cur"
+help			= "sCRJ Cursors v2.1 DARK - Help Select.cur"
+work			= "sCRJ Cursors v2.1 DARK - Working in Background.ani"
+busy			= "sCRJ Cursors v2.1 DARK - Busy.ani"
+cross			= "sCRJ Cursors v2.1 DARK - Precision Select.cur"
+text			= "sCRJ Cursors v2.1 DARK - Text Select.cur"
+hand			= "sCRJ Cursors v2.1 DARK - Handwriting.cur"
+unavailiable	= "sCRJ Cursors v2.1 DARK - Unavailable.cur"
+vert			= "sCRJ Cursors v2.1 DARK - Vertical Resize.cur"
+horz			= "sCRJ Cursors v2.1 DARK - Horizontal Resize.cur"
+dgn1			= "sCRJ Cursors v2.1 DARK - Diagonal Resize 1.cur"
+dgn2			= "sCRJ Cursors v2.1 DARK - Diagonal Resize 2.cur"
+move			= "sCRJ Cursors v2.1 DARK - Move.cur"
+alternate		= "sCRJ Cursors v2.1 DARK - Alternate Select.cur"
+link			= "sCRJ Cursors v2.1 DARK - Link Select.cur"

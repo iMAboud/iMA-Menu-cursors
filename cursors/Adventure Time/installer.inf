@@ -1,0 +1,58 @@
+ ; Jake The Dog
+[Version]
+Signature = "$WINDOWS NT$"
+Provider = Der_Floh
+Class = Cursor
+ClassGuid = {some-guid}
+CatalogFile = installer.cat
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"Arrow.cur"
+"IBeam.cur"
+"Wait.ani"
+"Crosshair.cur"
+"UpArrow.cur"
+"NWPen.cur"
+"SizeNWSE.cur"
+"SizeNESW.cur"
+"SizeWE.cur"
+"SizeNS.cur"
+"SizeAll.cur"
+"No.cur"
+"Hand.cur"
+"AppStarting.ani"
+"Help.cur"
+"Pin.cur"
+"Person.cur"
+
+[Strings]
+CUR_DIR      = "Cursors\Jake The Dog"
+SCHEME_NAME  = "Jake The Dog"
+pointer      = "Arrow.cur"
+text         = "IBeam.cur"
+busy         = "Wait.ani"
+cross        = "Crosshair.cur"
+alternate    = "UpArrow.cur"
+hand         = "NWPen.cur"
+dgn1         = "SizeNWSE.cur"
+dgn2         = "SizeNESW.cur"
+horz         = "SizeWE.cur"
+vert         = "SizeNS.cur"
+move         = "SizeAll.cur"
+unavailiable = "No.cur"
+link         = "Hand.cur"
+work         = "AppStarting.ani"
+help         = "Help.cur"
+pin          = "Pin.cur"
+person       = "Person.cur"

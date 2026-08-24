@@ -1,0 +1,52 @@
+Creado por MarusitaNeko
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+normal.cur
+ayuda.cur
+trabajando.cur
+ocupado.cur
+texto.cur
+no disponible.cur
+vertical.cur
+horizontal.cur
+diagonal1.cur
+diagonal2.cur
+Mover.cur
+link.ani
+precision.cur
+Escritura a Mano.cur
+Alternativo.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Cupcake"
+SCHEME_NAME   = "Cupcake"
+pointer       = "normal.cur"
+help          = "ayuda.cur"
+work          = "trabajando.cur"
+busy          = "ocupado.cur"
+text          = "texto.cur"
+unavailiable  = "no disponible.cur"
+vert          = "vertical.cur"
+horz          = "horizontal.cur"
+dgn1          = "diagonal1.cur"
+dgn2          = "diagonal2.cur"
+move          = "Mover.cur"
+link          = "link.ani"
+cross         = "precision.cur"
+hand          = "escritura a mano.cur"
+alternate     = "alternativo.cur"
