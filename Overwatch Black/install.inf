@@ -1,0 +1,48 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+horz.cur
+dgn2.cur
+vert.cur
+dgn1.cur
+move.cur
+cross.cur
+text.cur
+link.cur
+pin.cur
+alternate.cur
+person.cur
+pointer.cur
+help.cur
+unavailiable.cur
+work_32-48-64.ani
+busy_32-48-64.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\horz.cur"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\dgn2.cur"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\vert.cur"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\dgn1.cur"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\move.cur"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\cross.cur"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\text.cur"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\link.cur"
+HKCU,"Control Panel\Cursors","Pin",,"%25%\Cursors\pin.cur"
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\alternate.cur"
+HKCU,"Control Panel\Cursors","Person",,"%25%\Cursors\person.cur"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\pointer.cur"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\help.cur"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\unavailiable.cur"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\work_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\busy_32-48-64.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Overwatch Black"
+HKCU,"Control Panel\Cursors\Schemes","Overwatch Black",,""

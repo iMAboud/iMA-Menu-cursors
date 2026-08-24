@@ -1,0 +1,40 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+alternate.cur
+help.cur
+unavailable.cur
+hand.cur
+horizontal resize.cur
+move.cur
+precision.cur
+vertical resize.cur
+text.cur
+normal.cur
+busy .ani
+busy.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\alternate.cur"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\help.cur"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\unavailable.cur"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\hand.cur"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\horizontal resize.cur"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\move.cur"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\precision.cur"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\vertical resize.cur"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\text.cur"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\normal.cur"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\busy .ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\busy.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Curved Plain Light"
+HKCU,"Control Panel\Cursors\Schemes","Curved Plain Light",,""

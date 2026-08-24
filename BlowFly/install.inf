@@ -1,0 +1,42 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+IBeam.cur
+Cross.cur
+Help.cur
+No.cur
+SizeNS.cur
+UpArrow.cur
+SizeWE.cur
+SizeNWSE.cur
+SizeNESW.cur
+SizeAll.cur
+Hand.cur
+AppStarting.ani
+Wait.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\IBeam.cur"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\Cross.cur"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\Help.cur"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\No.cur"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\SizeNS.cur"
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\UpArrow.cur"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\SizeWE.cur"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\SizeNWSE.cur"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\SizeNESW.cur"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\SizeAll.cur"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Hand.cur"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"BlowFly"
+HKCU,"Control Panel\Cursors\Schemes","BlowFly",,""
