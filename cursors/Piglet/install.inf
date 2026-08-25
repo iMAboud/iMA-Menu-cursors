@@ -1,54 +1,77 @@
+
 [Version]
 signature="$CHICAGO$"
 
 [DefaultInstall]
-CopyFiles = Scheme.Cur
-AddReg    = Scheme.Reg,Wreg
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg, Wreg
 
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
 
 [Wreg]
 HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
-HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\Cursors",No,0x00020000,"%10%\%CUR_DIR%\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Cur]
-"正常选择.cur"
-"帮助选择.cur"
-"后台运行.ani"
-"忙.ani"
-"精确选择.cur"
-"文本选择.cur"
-"手写.cur"
-"不可用.cur"
-"垂直调整大小.ani"
-"水平调整大小.ani"
-"沿对角线调整大小1.ani"
-"沿对角线调整大小2.ani"
-"移动.ani"
-"候选.cur"
-"链接选择.cur"
+"alternate.cur"
+"busy.ani"
+"dgn1.ani"
+"dgn2.ani"
+"handwriting.cur"
+"help.cur"
+"horz.ani"
+"link.cur"
+"move.ani"
+"normal.cur"
+"person.cur"
+"pin.cur"
+"precision.cur"
+"text.cur"
+"unavailable.cur"
+"vert.ani"
+"working.ani"
+
+[Scheme.Txt]
 
 [Strings]
 CUR_DIR            = "Cursors\Piglet"
 SCHEME_NAME        = "Piglet"
-pointer	        = "正常选择.cur"
-help		= "帮助选择.cur"
-work		= "后台运行.ani"
-busy		= "忙.ani"
-cross		= "精确选择.cur"
-text		= "文本选择.cur"
-hand		= "手写.cur"
-unavailiable	= "不可用.cur"
-vert		= "垂直调整大小.ani"
-horz		= "水平调整大小.ani"
-dgn1		= "沿对角线调整大小1.ani"
-dgn2		= "沿对角线调整大小2.ani"
-move		= "移动.ani"
-alternate	= "候选.cur"
-link		= "链接选择.cur"
-
-制作者：bilibili  RMWCP  UID：515958468
+pointer         = "normal.cur"
+help            = "help.cur"
+work            = "working.ani"
+busy            = "busy.ani"
+cross           = "precision.cur"
+text            = "text.cur"
+hand            = "handwriting.cur"
+unavailable     = "unavailable.cur"
+vert            = "vert.ani"
+horz            = "horz.ani"
+dgn1            = "dgn1.ani"
+dgn2            = "dgn2.ani"
+move            = "move.ani"
+alternate       = "alternate.cur"
+link            = "link.cur"
+pin             = "pin.cur"
+person          = "person.cur"

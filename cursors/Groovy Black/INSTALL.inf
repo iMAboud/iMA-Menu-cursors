@@ -1,55 +1,83 @@
 [Version]
-signature ="$Chicago$"
+signature="$CHICAGO$"
+
 [DefaultInstall]
 CopyFiles = Scheme.Cur, Scheme.Txt
-AddReg = Scheme.Reg
+AddReg    = Scheme.Reg, Wreg
+
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
+
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%CUR_DIR%\%beam%,%10%\%CUR_DIR%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"arrow.cur"
+"cross.cur"
+"diag1.cur"
+"diag2.cur"
+"hand.cur"
+"hand1.cur"
+"help.cur"
+"hori.cur"
+"link.cur"
+"link1.cur"
+"move.cur"
+"move1.cur"
+"no.cur"
+"pen.cur"
+"person.cur"
+"pin.cur"
+"pirate.cur"
+"start.ani"
+"start1.ani"
+"text.cur"
+"vert.cur"
+"wait.ani"
+"zoom-in.cur"
+"zoom-out.cur"
+
+[Scheme.Txt]
+
 [Strings]
 CUR_DIR            = "Cursors\Groovy Black"
 SCHEME_NAME        = "Groovy Black"
-arrow		= "arrow.cur"
-beam		= "text.cur"
-cross		= "cross.cur"
-dgn1		= "diag1.cur"
-dgn2		= "diag2.cur"
-hand		= "hand.cur"
-help		= "help.cur"
-hori		= "hori.cur"
-link		= "link.cur"
-move		= "move.cur"
-no			= "no.cur"
-pen		= "pen.cur"
-person	= "person.cur"
-pin		= "pin.cur"
-start		= "start.ani"
-vert		= "vert.cur"
-wait		= "wait.ani"
-[Scheme.Cur]
-start.ani
-start1.ani
-wait.ani
-arrow.cur
-cross.cur
-diag1.cur
-diag2.cur
-hand.cur
-hand1.cur
-help.cur
-hori.cur
-link.cur
-link1.cur
-move.cur
-move1.cur
-no.cur
-pen.cur
-person.cur
-pin.cur
-pirate.cur
-text.cur
-vert.cur
-zoom-in.cur
-zoom-out.cur
+pointer         = "arrow.cur"
+help            = "help.cur"
+work            = "start.ani"
+busy            = "wait.ani"
+cross           = "cross.cur"
+text            = "text.cur"
+hand            = "pen.cur"
+unavailable     = "no.cur"
+vert            = "vert.cur"
+horz            = "hori.cur"
+dgn1            = "diag1.cur"
+dgn2            = "diag2.cur"
+move            = "move.cur"
+alternate       = "hand.cur"
+link            = "link.cur"
+pin             = "pin.cur"
+person          = "person.cur"

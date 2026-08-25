@@ -1,53 +1,70 @@
-; Night Neon Cursor Set
-
 [Version]
 signature="$CHICAGO$"
 
 [DefaultInstall]
 CopyFiles = Scheme.Cur, Scheme.Txt
-AddReg    = Scheme.Reg
+AddReg    = Scheme.Reg, Wreg
 
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
 
-; -- Common Information
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Cur]
-Night-Neon_0000_Normal.cur
-Night-Neon_0002_Help.cur
-Plasma Cursor.ani
-Neon Magenta BusyWorking2.ani
-Night-Neon_0009_I-beam-text.cur
-Night-Neon_0003_No.cur
-Night-Neon_0008_Vertical.cur
-Night-Neon_0007_Horizontal.cur
-Night-Neon_0006_Resize-1.cur
-Night-Neon_0005_Resize-2.cur
-Night-Neon_0004_Move.cur
-Night-Neon_0015_Link.cur
-Night-Neon_0011_Precision.cur
-Night-Neon_0010_pen.cur
-Night-Neon_0001_Alternate.cur
+"Neon Magenta BusyWorking2.ani"
+"Night-Neon_0000_Normal.cur"
+"Night-Neon_0001_Alternate.cur"
+"Night-Neon_0002_Help.cur"
+"Night-Neon_0003_No.cur"
+"Night-Neon_0004_Move.cur"
+"Night-Neon_0005_Resize-2.cur"
+"Night-Neon_0006_Resize-1.cur"
+"Night-Neon_0007_Horizontal.cur"
+"Night-Neon_0008_Vertical.cur"
+"Night-Neon_0009_I-beam-text.cur"
+"Night-Neon_0010_pen.cur"
+"Night-Neon_0011_Precision.cur"
+"Night-Neon_0015_Link.cur"
+"Plasma Cursor.ani"
+
+[Scheme.Txt]
 
 [Strings]
 CUR_DIR            = "Cursors\Night Neon"
 SCHEME_NAME        = "Night Neon"
-pointer       = "Night-Neon_0000_Normal.cur"
-help          = "Night-Neon_0002_Help.cur"
-work          = "Plasma Cursor.ani"
-busy          = "Neon Magenta BusyWorking2.ani"
-text          = "Night-Neon_0009_I-beam-text.cur"
-unavailiable  = "Night-Neon_0003_No.cur"
-vert          = "Night-Neon_0007_Horizontal.cur"
-horz          = "Night-Neon_0008_Vertical.cur"
-dgn1          = "Night-Neon_0006_Resize-1.cur"
-dgn2          = "Night-Neon_0005_Resize-2.cur"
-move          = "Night-Neon_0004_Move.cur"
-link          = "Night-Neon_0015_Link.cur"
-cross         = "Night-Neon_0011_Precision.cur"
-hand          = "Night-Neon_0010_pen.cur"
-alternate     = "Night-Neon_0001_Alternate.cur"
+pointer         = "Night-Neon_0000_Normal.cur"
+help            = "Night-Neon_0002_Help.cur"
+work            = "Plasma Cursor.ani"
+busy            = "Neon Magenta BusyWorking2.ani"
+cross           = "Night-Neon_0011_Precision.cur"
+text            = "Night-Neon_0009_I-beam-text.cur"
+hand            = "Night-Neon_0010_pen.cur"
+unavailable     = "Night-Neon_0003_No.cur"
+vert            = "Night-Neon_0007_Horizontal.cur"
+horz            = "Night-Neon_0008_Vertical.cur"
+dgn1            = "Night-Neon_0006_Resize-1.cur"
+dgn2            = "Night-Neon_0005_Resize-2.cur"
+move            = "Night-Neon_0004_Move.cur"
+alternate       = "Night-Neon_0001_Alternate.cur"
+link            = "Night-Neon_0015_Link.cur"

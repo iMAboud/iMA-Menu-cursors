@@ -3,54 +3,89 @@ signature="$CHICAGO$"
 
 [DefaultInstall]
 CopyFiles = Scheme.Cur, Scheme.Txt
-AddReg    = Scheme.Reg
+AddReg    = Scheme.Reg, Wreg
 
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
 Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%CUR_DIR%\%loc%,%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
 
 [Scheme.Cur]
-orange_alt.cur
-orange_working_64.ani
-orange_busy_64.ani
-cross.cur
-diag1_64.ani
-diag2_64.ani
-orange_handwriting.cur
-orange_help.cur
-horiz_64.ani
-orange_link.cur
-orange_loc.cur
-orange_normal.cur
-move_64.ani
-orange_person.cur
-orange_text.cur
-unavailable.cur
-vert_64.ani
+"cross.cur"
+"diag1_32.ani"
+"diag1_48.ani"
+"diag1_64.ani"
+"diag2_32.ani"
+"diag2_48.ani"
+"diag2_64.ani"
+"horiz_32.ani"
+"horiz_48.ani"
+"horiz_64.ani"
+"move_32.ani"
+"move_48.ani"
+"move_64.ani"
+"orange_alt.cur"
+"orange_busy_32.ani"
+"orange_busy_48.ani"
+"orange_busy_64.ani"
+"orange_extra_32.ani"
+"orange_extra_48.ani"
+"orange_extra_64.ani"
+"orange_handwriting.cur"
+"orange_help.cur"
+"orange_link.cur"
+"orange_loc.cur"
+"orange_normal.cur"
+"orange_person.cur"
+"orange_text.cur"
+"orange_working_32.ani"
+"orange_working_48.ani"
+"orange_working_64.ani"
+"unavailable.cur"
+"vert_32.ani"
+"vert_48.ani"
+"vert_64.ani"
 
 [Scheme.Txt]
-~README.txt
 
 [Strings]
 CUR_DIR            = "Cursors\Lotus Orange HD"
 SCHEME_NAME        = "Lotus Orange HD"
-pointer       = "orange_normal.cur"
-help          = "orange_help.cur"
-work          = "orange_working_64.ani"
-busy          = "orange_busy_64.ani"
-text          = "orange_text.cur"
-unavailable   = "unavailable.cur"
-vert          = "vert_64.ani"
-horz          = "horiz_64.ani"
-dgn1          = "diag1_64.ani"
-dgn2          = "diag2_64.ani"
-move          = "move_64.ani"
-link          = "orange_link.cur"
-cross         = "cross.cur"
-hand          = "orange_handwriting.cur"
-alternate     = "orange_alt.cur"
-loc	      = "orange_loc.cur"
-person	      = "orange_person.cur"
+pointer         = "orange_normal.cur"
+help            = "orange_help.cur"
+work            = "orange_working_64.ani"
+busy            = "orange_busy_64.ani"
+cross           = "cross.cur"
+text            = "orange_text.cur"
+hand            = "orange_handwriting.cur"
+unavailable     = "unavailable.cur"
+vert            = "vert_64.ani"
+horz            = "horiz_64.ani"
+dgn1            = "diag1_64.ani"
+dgn2            = "diag2_64.ani"
+move            = "move_64.ani"
+alternate       = "orange_alt.cur"
+link            = "orange_link.cur"
+person          = "orange_person.cur"

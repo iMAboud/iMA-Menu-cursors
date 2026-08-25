@@ -1,43 +1,69 @@
+
 [Version]
 signature="$CHICAGO$"
 
 [DefaultInstall]
-CopyFiles = Scheme.Cur
-AddReg = Scheme.Reg
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg, Wreg
 
 [DestinationDirs]
-Scheme.Cur = 25,Cursors
-
-[Scheme.Cur]
-Help_32-48-64.ani
-Arrow_32-48-64.ani
-AppStarting_32-48-64.ani
-Cross.ani
-IBeam.ani
-No.ani
-SizeNS_32-48-64.ani
-Wait_32-48-64.ani
-SizeNWSE_32-48-64.ani
-SizeWE_32-48-64.ani
-SizeNESW_32-48-64.ani
-SizeAll_32-48-64.ani
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
-HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\Help_32-48-64.ani"
-HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\Arrow_32-48-64.ani"
-HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\AppStarting_32-48-64.ani"
-HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\Cross.ani"
-HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\IBeam.ani"
-HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\No.ani"
-HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\SizeNS_32-48-64.ani"
-HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Wait_32-48-64.ani"
-HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\SizeNWSE_32-48-64.ani"
-HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\SizeWE_32-48-64.ani"
-HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\SizeNESW_32-48-64.ani"
-HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\SizeAll_32-48-64.ani"
-; Set scheme name
-HKCU,"Control Panel\Cursors","(Default)",,"Glistening Magnetism"
-HKCU,"Control Panel\Cursors\Schemes","Glistening Magnetism",,""
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"AppStarting_32-48-64.ani"
+"AppStarting_96.ani"
+"Arrow_32-48-64.ani"
+"Arrow_96.ani"
+"Cross_48.ani"
+"Handwriting_48.ani"
+"Help_32-48-64.ani"
+"Help_96.ani"
+"IBeam_48.ani"
+"No_48.ani"
+"SizeAll_32-48-64.ani"
+"SizeNESW_32-48-64.ani"
+"SizeNS_32-48-64.ani"
+"SizeNWSE_32-48-64.ani"
+"SizeWE_32-48-64.ani"
+"Wait_32-48-64.ani"
+"Wait_96.ani"
+
+[Scheme.Txt]
 
 [Strings]
+CUR_DIR            = "Cursors\Glistening Magnet"
 SCHEME_NAME        = "Glistening Magnet"
+pointer         = "Arrow_32-48-64.ani"
+help            = "Help_32-48-64.ani"
+work            = "AppStarting_32-48-64.ani"
+busy            = "Wait_32-48-64.ani"
+cross           = "Cross_48.ani"
+text            = "IBeam_48.ani"
+hand            = "Handwriting_48.ani"
+unavailable     = "No_48.ani"
+vert            = "SizeNS_32-48-64.ani"
+horz            = "SizeWE_32-48-64.ani"
+dgn1            = "SizeNWSE_32-48-64.ani"
+dgn2            = "SizeNESW_32-48-64.ani"
+move            = "SizeAll_32-48-64.ani"
