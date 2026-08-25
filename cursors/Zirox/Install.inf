@@ -1,0 +1,79 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg, Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"Zirox Alternate Select.ani"
+"Zirox Alternate Select.cur"
+"Zirox Busy.ani"
+"Zirox Diagonal Resize 1.cur"
+"Zirox Diagonal Resize 2.cur"
+"Zirox Handwriting.cur"
+"Zirox Help Select.cur"
+"Zirox Horizontal Resize.cur"
+"Zirox Link Select.ani"
+"Zirox Location Select.cur"
+"Zirox Move.cur"
+"Zirox Normal Select II.cur"
+"Zirox Normal Select III.cur"
+"Zirox Normal Select.cur"
+"Zirox Person Select.cur"
+"Zirox Precision Select.cur"
+"Zirox Text Select.cur"
+"Zirox Unavailable.ani"
+"Zirox Vertical Resize.cur"
+"Zirox Working In Background.ani"
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR            = "Cursors\Zirox"
+SCHEME_NAME        = "Zirox"
+pointer          = "Zirox Normal Select.cur"
+help             = "Zirox Help Select.cur"
+work             = "Zirox Working In Background.ani"
+busy             = "Zirox Busy.ani"
+cross            = "Zirox Precision Select.cur"
+text             = "Zirox Text Select.cur"
+hand             = "Zirox Handwriting.cur"
+unavailable      = "Zirox Unavailable.ani"
+vert             = "Zirox Vertical Resize.cur"
+horz             = "Zirox Horizontal Resize.cur"
+dgn1             = "Zirox Diagonal Resize 1.cur"
+dgn2             = "Zirox Diagonal Resize 2.cur"
+move             = "Zirox Move.cur"
+alternate        = "Zirox Alternate Select.ani"
+link             = "Zirox Link Select.ani"
+pin              = "Zirox Location Select.cur"
+person           = "Zirox Person Select.cur"

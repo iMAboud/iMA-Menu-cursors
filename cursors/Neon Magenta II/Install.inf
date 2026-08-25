@@ -1,0 +1,70 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg, Wreg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%pointer%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%work%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%busy%"
+HKCU,"Control Panel\Cursors",Crosshair,0x00020000,"%10%\%CUR_DIR%\%cross%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%text%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%hand%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgn1%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgn2%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%alternate%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"Neon Magenta Busy Wait.ani"
+"Neon Magenta BusyWorking2.ani"
+"Neon-Magenta-II_0000_Normal.cur"
+"Neon-Magenta-II_0001_Alternate.cur"
+"Neon-Magenta-II_0002_Help.cur"
+"Neon-Magenta-II_0003_No.cur"
+"Neon-Magenta-II_0004_Move.cur"
+"Neon-Magenta-II_0005_Resize-2.cur"
+"Neon-Magenta-II_0006_Resize-1.cur"
+"Neon-Magenta-II_0007_Horizontal.cur"
+"Neon-Magenta-II_0008_Vertical.cur"
+"Neon-Magenta-II_0009_I-beam-text.cur"
+"Neon-Magenta-II_0010_pen.cur"
+"Neon-Magenta-II_0011_Precision.cur"
+"Neon-Magenta-II_0015_Link.cur"
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR            = "Cursors\Neon Magenta II"
+SCHEME_NAME        = "Neon Magenta II"
+pointer          = "Neon-Magenta-II_0000_Normal.cur"
+help             = "Neon-Magenta-II_0002_Help.cur"
+work             = "Neon Magenta BusyWorking2.ani"
+busy             = "Neon Magenta Busy Wait.ani"
+cross            = "Neon-Magenta-II_0011_Precision.cur"
+text             = "Neon-Magenta-II_0009_I-beam-text.cur"
+hand             = "Neon-Magenta-II_0010_pen.cur"
+unavailable      = "Neon-Magenta-II_0003_No.cur"
+vert             = "Neon-Magenta-II_0008_Vertical.cur"
+horz             = "Neon-Magenta-II_0007_Horizontal.cur"
+dgn1             = "Neon-Magenta-II_0000_Normal.cur"
+dgn2             = "Neon-Magenta-II_0000_Normal.cur"
+move             = "Neon-Magenta-II_0004_Move.cur"
+alternate        = "Neon-Magenta-II_0001_Alternate.cur"
+link             = "Neon-Magenta-II_0015_Link.cur"
