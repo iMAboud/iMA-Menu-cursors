@@ -1,0 +1,63 @@
+; Copyright © niivu DESIGNS.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_Quixotic-night-mac
+DisplayName=Quixotic-night-mac
+SetLogonBackground=0
+
+; Computer - SHIDI_SERVER
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\Resources\Themes\Quixotic\Icons\This PC.ico
+
+; UsersFiles - SHIDI_USERFILES
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue==%SystemRoot%\Resources\Themes\Quixotic\Icons\user.ico
+
+[Control Panel\Cursors]
+AppStarting=%ResourceDir%\Themes\Quixotic\cursors\busy.ani
+Arrow=%ResourceDir%\Themes\Quixotic\cursors\arrow.cur
+Crosshair=%ResourceDir%\Themes\Quixotic\cursors\cross.cur
+Hand=%ResourceDir%\Themes\Quixotic\cursors\link.cur
+Help=%ResourceDir%\Themes\Quixotic\cursors\helpsel.cur
+IBeam=%ResourceDir%\Themes\Quixotic\cursors\ibeam.cur
+No=%ResourceDir%\Themes\Quixotic\cursors\unavail.cur
+NWPen=%ResourceDir%\Themes\Quixotic\cursors\pen.cur
+SizeAll=%ResourceDir%\Themes\Quixotic\cursors\move.cur
+SizeNESW=%ResourceDir%\Themes\Quixotic\cursors\nesw.cur
+SizeNS=%ResourceDir%\Themes\Quixotic\cursors\ns.cur
+SizeNWSE=%ResourceDir%\Themes\Quixotic\cursors\nwse.cur
+SizeWE=%ResourceDir%\Themes\Quixotic\cursors\ew.cur
+UpArrow=%ResourceDir%\Themes\Quixotic\cursors\up.cur
+Wait=%ResourceDir%\Themes\Quixotic\cursors\wait.ani
+DefaultValue=Windows Default
+DefaultValue.MUI=@main.cpl,-1020
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\Quixotic\Previews\Quixotic dark mac.png
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[VisualStyles]
+Path=%ResourceDir%\Themes\Quixotic\Quixotic-night-mac.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XFFF076AB
+AppMode=Dark
+SystemMode=Dark
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+
+[Slideshow]
+Interval=1000000
+Shuffle=1
+ImagesRootPath=%SystemRoot%\Resources\Themes\Quixotic\Wallpapers\Night\
