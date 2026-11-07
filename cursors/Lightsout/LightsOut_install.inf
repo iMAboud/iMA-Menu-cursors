@@ -1,0 +1,59 @@
+; OutLier Cursor Scheme
+; Author: 5h10
+;
+; INSTALL: right-click this file -> Install
+; THEN: Settings -> Bluetooth & devices -> Mouse -> Additional mouse settings
+;       -> Pointers tab -> Scheme dropdown -> select "OutLier" -> Apply
+
+[Version]
+Signature="$Windows NT$"
+
+[DefaultInstall]
+CopyFiles=Cursors.Files
+AddReg=Cursors.Reg
+
+[DestinationDirs]
+Cursors.Files=10,"%CUR_DIR%"
+
+[Cursors.Files]
+ol_alternate.cur
+ol_busy.ani
+ol_diag1.cur
+ol_diag2.cur
+ol_help.cur
+ol_horizontal.cur
+ol_move.cur
+ol_pen.cur
+ol_person.cur
+ol_pin.cur
+ol_point.cur
+ol_pointer.cur
+ol_precise.cur
+ol_text.cur
+ol_unavailable.cur
+ol_vertical.cur
+ol_working.ani
+
+[Cursors.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%handwriting%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Strings]
+CUR_DIR = "Cursors\OutLier_Lightsout"
+SCHEME_NAME = "OutLier_lightsout"
+pointer      = "ol_pointer.cur"     ; Normal Select
+help         = "ol_help.cur"        ; Help Select
+work         = "ol_working.ani"     ; Working In Background
+busy         = "ol_busy.ani"        ; Busy
+cross        = "ol_precise.cur"     ; Precision Select
+text         = "ol_text.cur"        ; Text Select
+handwriting  = "ol_pen.cur"         ; Handwriting
+unavailable  = "ol_unavailable.cur" ; Unavailable
+vert         = "ol_vertical.cur"    ; Vertical Resize
+horz         = "ol_horizontal.cur"  ; Horizontal Resize
+dgn1         = "ol_diag1.cur"       ; Diagonal Resize 1 [NW/SE]
+dgn2         = "ol_diag2.cur"       ; Diagonal Resize 2 [NE/SW]
+move         = "ol_move.cur"        ; Move
+alternate    = "ol_alternate.cur"   ; Alternate Select
+link         = "ol_point.cur"       ; Link Select
+pin          = "ol_pin.cur"         ; Location Select
+person       = "ol_person.cur"      ; Person Select

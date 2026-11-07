@@ -1,0 +1,46 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+Scuba Cat Cursor Set - Scuba Cat_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_1_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_2_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_3_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_4_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_5_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_6_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_7_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_8_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_9_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_10_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_11_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_12_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_13_32-48-64.ani
+Scuba Cat Cursor Set - Scuba Cat_14_32-48-64.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","NWPen",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_1_32-48-64.ani"
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_2_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_3_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_4_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_5_32-48-64.ani"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_6_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_7_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_8_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_9_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_10_32-48-64.ani"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_11_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_12_32-48-64.ani"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_13_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\Scuba Cat Cursor Set - Scuba Cat_14_32-48-64.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Scuba Cat Cursor Set"
+HKCU,"Control Panel\Cursors\Schemes","Scuba Cat Cursor Set",,""
