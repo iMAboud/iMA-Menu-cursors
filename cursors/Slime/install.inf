@@ -1,0 +1,50 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+Rimuru Tempest Slime - Alternate_32-48-64.ani
+diagonal-resize-ne-sw.cur
+diagonal-resize-nw-se.cur
+handwriting_32-48-64.ani
+horizontal-resize.cur
+link-select_32-48-64.ani
+location-select_32-48-64.ani
+move.cur
+normal-select_32-48-64.ani
+person-select_32-48-64.ani
+precision-select.cur
+text-select.cur
+unavailable_32-48-64.ani
+vertical-resize.cur
+working-in-background_32-48-64.ani
+help-select-main.cur
+Rimuru Tempest Slime Awaken_32-48-64.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\Rimuru Tempest Slime - Alternate_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\diagonal-resize-ne-sw.cur"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\diagonal-resize-nw-se.cur"
+HKCU,"Control Panel\Cursors","NWPen",,"%25%\Cursors\handwriting_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\horizontal-resize.cur"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\link-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Pin",,"%25%\Cursors\location-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\move.cur"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\normal-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Person",,"%25%\Cursors\person-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\precision-select.cur"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\text-select.cur"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\unavailable_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\vertical-resize.cur"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\working-in-background_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\help-select-main.cur"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\Rimuru Tempest Slime Awaken_32-48-64.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Rimuru Tempest Slime Cursor Set"
+HKCU,"Control Panel\Cursors\Schemes","Rimuru Tempest Slime Cursor Set",,""
